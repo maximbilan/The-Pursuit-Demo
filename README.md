@@ -26,3 +26,10 @@ Apple iTunes: https://itunes.apple.com/us/app/the-pursuit-demo/id689719793 <br>
 <b>Important notes: </b> <br>
 &nbsp;&nbsp;1. Install Java SDK 6, not 7 for Android build. <br>
 &nbsp;&nbsp;2. For windows phone 8 build you need to install Windows 8 x64 and run 'run_project_win8.bat'. <br>
+<br>
+Screenshots:<br>
+![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen1.png)
+![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen2.png)
+![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen3.png)
+![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen4.png)
+![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen5.png)
