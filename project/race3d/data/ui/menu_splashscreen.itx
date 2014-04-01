@@ -1,0 +1,21 @@
+// Splash screen
+
+GUIFrame
+{
+	name			menu_splashscreen
+	bounds			{ left top 0 0 100% 100% }
+
+	GUIFrame
+	{
+		name			menu_splashscreen_background
+		bounds			{ left top 0% 0% 100% 100% }
+		addTemplate		menu_background
+	}
+	
+	GUIFrame
+	{
+		name			main_menu_title
+		bounds			{ left top 17% 9% 65% 25% }
+		addTemplate		menu_game_title
+	}
+}

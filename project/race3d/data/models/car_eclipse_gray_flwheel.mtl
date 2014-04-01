@@ -1,0 +1,6 @@
+// Source file: 2003-eclipse_work_export_to_game_low_textures.max
+CIwMaterial
+{
+	name "car_eclipse_gray_flwheel/Material_5"
+	texture0 "./textures/wheel-diffuse-64.tga"
+}

@@ -1,0 +1,154 @@
+// Options screen
+
+GUIFrame
+{
+	name			menu_gamemode
+	bounds			{ left top 0 0 100% 100% }
+
+	GUIFrame
+	{
+		name			menu_gamemode_background
+		bounds			{ left top 0% 0% 100% 100% }
+		addTemplate		menu_background
+	}
+	
+	GUIFrame
+	{
+		name			menu_gamemode_buttons_frame
+		bounds			{ left centre 2% 88% 30% 45% }
+	
+		GUIButton
+		{
+			name		mgm_timeattack_button
+			bounds		{ centre top 50% 3% 100% 33% }
+	
+			addTemplate button_green
+
+			GUILabel
+			{
+				useTemplate	button_label
+				string		MGM_TIME_ATTACK
+			}
+		}
+
+		GUIButton
+		{
+			name		mgm_training_button
+			offset		{ mgm_timeattack_button bottom spacing 4% }
+	
+			addTemplate button_green
+	
+			GUILabel
+			{
+				useTemplate	button_label
+				string		MGM_TRAINING
+			}
+		}
+
+	}
+	
+	GUIFrame
+	{
+		name			menu_gammode_back_frame
+		bounds			{ left top 91% 86% 8% 12% }
+	
+		GUIButton
+		{
+			name		mgm_back_button
+			bounds		{ left top 0% 0% 100% 100% }
+
+			addTemplate button_green_back
+
+			GUILabel
+			{
+				useTemplate	button_label
+				string		STR_EMPTY
+			}
+		}
+	}
+	
+	GUIFrame
+	{
+		name			menu_gammode_arrow_left_frame
+		bounds			{ left top 42% 46% 8% 12% }
+	
+		GUIButton
+		{
+			name		mgm_arrow_left_button
+			bounds		{ left top 0% 0% 100% 100% }
+
+			addTemplate button_arrow_left
+
+			GUILabel
+			{
+				useTemplate	button_label
+				string		STR_EMPTY
+			}
+		}
+	}
+	
+	GUIFrame
+	{
+		name			menu_gammode_arrow_right_frame
+		bounds			{ left top 88% 46% 8% 12% }
+	
+		GUIButton
+		{
+			name		mgm_arrow_right_button
+			bounds		{ left top 0% 0% 100% 100% }
+
+			addTemplate button_arrow_right
+
+			GUILabel
+			{
+				useTemplate	button_label
+				string		STR_EMPTY
+			}
+		}
+	}
+	
+	GUIFrame
+	{
+		name			menu_gamemode_car_red_frame
+		bounds			{ left top 53% 33% 30% 40% }
+		addTemplate		menu_car_eclipse_red
+	}
+	
+	GUIFrame
+	{
+		name			menu_gamemode_car_gray_frame
+		bounds			{ left top 53% 33% 30% 40% }
+		addTemplate		menu_car_eclipse_gray
+	}
+	
+	GUIFrame
+	{
+		name			menu_gamemode_car_blue_frame
+		bounds			{ left top 53% 33% 30% 40% }
+		addTemplate		menu_car_eclipse_blue
+	}
+	
+	GUIFrame
+	{
+		name			menu_gamemode_car_purple_frame
+		bounds			{ left top 53% 33% 30% 40% }
+		addTemplate		menu_car_eclipse_purple
+	}
+	
+	GUIFrame
+	{
+		name		menu_gamemode_title
+		bounds		{ left top 0% 2% 100% 12% }
+
+		addTemplate	menu_title
+		
+		GUILabel
+		{
+			useTemplate		text_label
+
+			name			menu_gamemode_title_label
+			bounds			{ left centre 7% 42% 90% 50% }
+			string			MGM_TITLE
+		}
+	}
+}

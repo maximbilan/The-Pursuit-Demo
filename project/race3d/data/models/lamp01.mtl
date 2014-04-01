@@ -1,0 +1,7 @@
+// Source file: s-light-park2.max
+CIwMaterial
+{
+	name "DefaultMaterial00"
+	colAmbient {243,243,243}
+	colDiffuse {243,243,243}
+}

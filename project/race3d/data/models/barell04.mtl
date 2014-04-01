@@ -1,0 +1,6 @@
+// Source file: barrels_low.max
+CIwMaterial
+{
+	name "barell04/barel03"
+	texture0 "./textures/barell03_low.tga"
+}

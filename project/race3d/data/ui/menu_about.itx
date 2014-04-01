@@ -1,0 +1,34 @@
+// Options screen
+
+GUIFrame
+{
+	name			menu_about
+	bounds			{ left top 0 0 100% 100% }
+
+	GUIFrame
+	{
+		name			menu_about_background
+		bounds			{ left top 0% 0% 100% 100% }
+		addTemplate		menu_background
+	}
+	
+	GUIFrame
+	{
+		name			menu_about_back_frame
+		bounds			{ left top 91% 86% 8% 12% }
+	
+		GUIButton
+		{
+			name		ma_back_button
+			bounds		{ left top 0% 0% 100% 100% }
+
+			addTemplate button_green_back
+
+			GUILabel
+			{
+				useTemplate	button_label
+				string		STR_EMPTY
+			}
+		}
+	}
+}

@@ -1,0 +1,100 @@
+// Options screen
+
+GUIFrame
+{
+	name			menu_options
+	bounds			{ left top 0 0 100% 100% }
+
+	GUIFrame
+	{
+		name			main_menu_background
+		bounds			{ left top 0% 0% 100% 100% }
+		addTemplate		menu_background
+	}
+	
+	GUIFrame
+	{
+		name			menu_options_buttons_frame
+		bounds			{ left centre 2% 72% 30% 45% }
+	
+		GUIButton
+		{
+			name		mo_language_button
+			bounds		{ centre top 50% 3% 100% 33% }
+	
+			addTemplate button_green
+
+			GUILabel
+			{
+				useTemplate	button_label
+				string		MO_LANGUAGE
+			}
+		}
+	
+		GUIButton
+		{
+			name		mo_sounds_button
+			offset		{ mo_language_button bottom spacing 4% }
+
+			addTemplate button_green
+
+			GUILabel
+			{
+				useTemplate	button_label
+				string		MO_SOUNDS
+			}
+		}
+
+		GUIButton
+		{
+			name		mo_conrols_button
+			offset		{ mo_sounds_button bottom spacing 4% }
+	
+			addTemplate button_green
+	
+			GUILabel
+			{
+				useTemplate	button_label
+				string		MO_CONTROLS
+			}
+		}
+
+	}
+	
+	GUIFrame
+	{
+		name			menu_options_back_frame
+		bounds			{ left top 91% 86% 8% 12% }
+	
+		GUIButton
+		{
+			name		mo_back_button
+			bounds		{ left top 0% 0% 100% 100% }
+
+			addTemplate button_green_back
+
+			GUILabel
+			{
+				useTemplate	button_label
+				string		STR_EMPTY
+			}
+		}
+	}
+	
+	GUIFrame
+	{
+		name		menu_options_title
+		bounds		{ left top 0% 2% 100% 12% }
+
+		addTemplate	menu_title
+		
+		GUILabel
+		{
+			useTemplate		text_label
+
+			name			menu_options_title_label
+			bounds			{ left centre 7% 42% 90% 50% }
+			string			MO_OPTIONS_TITLE
+		}
+	}
+}

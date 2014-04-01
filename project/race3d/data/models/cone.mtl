@@ -1,0 +1,13 @@
+// Source file: traffic_cone.max
+CIwMaterial
+{
+	name "cone/cone_red"
+	colAmbient {253,66,2}
+	colDiffuse {253,66,2}
+}
+CIwMaterial
+{
+	name "cone/cone_white"
+	colAmbient {255,255,255}
+	colDiffuse {255,255,255}
+}

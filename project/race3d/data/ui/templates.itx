@@ -1,0 +1,1374 @@
+// GUITemplate definitions to make it easier to specify common pieces of UI
+
+//-----------------------------------------------------------------------------
+// text_label
+// This is a GUILabel aligned top left of bounds, white in small text font
+//-----------------------------------------------------------------------------
+GUITemplate
+{
+	name		text_label
+
+	GUILabel
+	{
+		name		text_label
+
+		align		{ left top }
+		colour		white
+		font		tahoma_medium
+	}
+}
+
+GUITemplate
+{
+	name		text_large_label
+
+	GUILabel
+	{
+		name		text_large_label
+
+		align		{ left top }
+		colour		white
+		font		tahoma_large
+	}
+}
+
+GUITemplate
+{
+	name		text_small_label
+
+	GUILabel
+	{
+		name		text_small_label
+
+		align		{ left top }
+		colour		white
+		font		tahoma_small
+	}
+}
+
+//-----------------------------------------------------------------------------
+// button_label
+// This is a GUILabel used for adding labels to GUIButton instances
+//-----------------------------------------------------------------------------
+GUITemplate
+{
+	name		button_label
+
+	GUILabel
+	{
+		name		button_label
+
+		bounds		{ centre centre 50% 50% 100% 100% }
+		align		{ centre centre }
+		colour		white
+		font		tahoma_medium
+	}
+}
+
+GUITemplate
+{
+	name		button_label_left
+
+	GUILabel
+	{
+		name		button_label_left
+
+		bounds		{ centre centre 50% 50% 100% 100% }
+		align		{ left centre }
+		colour		white
+		font		tahoma_medium
+	}
+}
+
+GUITemplate
+{
+	name		button_label_right
+
+	GUILabel
+	{
+		name		button_label_right
+
+		bounds		{ centre centre 50% 50% 100% 100% }
+		align		{ right centre }
+		colour		white
+		font		tahoma_medium
+	}
+}
+
+//-----------------------------------------------------------------------------
+// button_backing
+// The GUIFrames required for a standard buttons up and down images
+//-----------------------------------------------------------------------------
+GUITemplate
+{
+	name	button_backing
+
+	GUIFrame
+	{
+		name	button_up
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBorder
+		{
+			name		button_up_border
+			bounds_tl	{ left top 0 0 8 8 }
+			bounds_br	{ left top -8 -8 8 8 }
+			material	popup
+			uv			{ 0 0 8 8 56 56 64 64 }
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBorder
+		{
+			name		button_down_border
+			bounds_tl	{ left top 0 0 8 8 }
+			bounds_br	{ left top -8 -8 8 8 }
+			material	popup
+			uv			{ 0 0 8 8 56 56 64 64 }
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBorder
+		{
+			name		button_disabled_border
+			bounds_tl	{ left top 0 0 8 8 }
+			bounds_br	{ left top -8 -8 8 8 }
+			material	popup
+			uv			{ 0 0 8 8 56 56 64 64 }
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_green
+
+	GUIFrame
+	{
+		name	button_up
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_green
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_green
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_green
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_green_info
+
+	GUIFrame
+	{
+		name	button_up
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_green_info
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_green_info
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_green_info
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_facebook
+
+	GUIFrame
+	{
+		name	button_up
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_facebook
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_facebook
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_facebook
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_twitter
+
+	GUIFrame
+	{
+		name	button_up
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_twitter
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_twitter
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_twitter
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_green_exit
+
+	GUIFrame
+	{
+		name	button_up
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_green_exit
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_green_exit
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_green_exit
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_green_back
+
+	GUIFrame
+	{
+		name	button_up
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_green_back
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_green_back
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_green_back
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_arrow_left
+
+	GUIFrame
+	{
+		name	button_up
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_arrow_left
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_arrow_left
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_arrow_left
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_arrow_right
+
+	GUIFrame
+	{
+		name	button_up
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_arrow_right
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_arrow_right
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_arrow_right
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_flag_en
+
+	GUIFrame
+	{
+		name	button_up
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_flag_en
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_flag_en
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_flag_en
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_flag_ru
+
+	GUIFrame
+	{
+		name	button_up
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_flag_ru
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_flag_ru
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_flag_ru
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_flag_fr
+
+	GUIFrame
+	{
+		name	button_up
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_flag_fr
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_flag_fr
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_flag_fr
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_flag_ge
+
+	GUIFrame
+	{
+		name	button_up
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_flag_ge
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_flag_ge
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_flag_ge
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_flag_it
+
+	GUIFrame
+	{
+		name	button_up
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_flag_it
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_flag_it
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_flag_it
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_flag_sp
+
+	GUIFrame
+	{
+		name	button_up
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_flag_sp
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_flag_sp
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_flag_sp
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	checkbox_blue
+
+	GUIFrame
+	{
+		name	button_up
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	checkbox_blue
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	checkbox_blue
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	checkbox_blue
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	checkbox_red
+
+	GUIFrame
+	{
+		name	button_up
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	checkbox_red
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	checkbox_red
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	checkbox_red
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_play_left
+
+	GUIFrame
+	{
+		name	frame_button_play_left
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_play_left
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_play_left
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_play_left
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_play_right
+
+	GUIFrame
+	{
+		name	frame_button_play_right
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_play_right
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_play_right
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_play_right
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_play_up
+
+	GUIFrame
+	{
+		name	frame_button_play_up
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_play_up
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_play_up
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_play_up
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_play_down
+
+	GUIFrame
+	{
+		name	frame_button_play_down
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_play_down
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_play_down
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_play_down
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_play_pause
+
+	GUIFrame
+	{
+		name	frame_button_play_pause
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_play_pause
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_play_pause
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_play_pause
+			colour		button_disabled
+		}
+	}
+}
+
+GUITemplate
+{
+	name	button_play_respawn
+
+	GUIFrame
+	{
+		name	frame_button_play_respawn
+		bounds	{ left top 0 0 100% 100% }
+
+		GUIBitmap
+		{
+			name		button_up_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_play_respawn
+			colour		button_up
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_down
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_down_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_play_respawn
+			colour		button_down
+		}
+	}
+
+	GUIFrame
+	{
+		name	button_disabled
+		bounds	{ left top 0 0 100% 100% }
+		
+		GUIBitmap
+		{
+			name		button_disabled_border
+			bounds		{ left top 0 0% 100% 100% }
+			material	button_play_respawn
+			colour		button_disabled
+		}
+	}
+}
+
+//-----------------------------------------------------------------------------
+// menu_backing
+// A semi-transparent background to go behind buttons and text for menu
+//-----------------------------------------------------------------------------
+GUITemplate
+{
+	name	menu_backing
+
+	GUIBorder
+	{
+		name		mm_huntmode_button_up
+		bounds_tl	{ left top 0 0 8 8 }
+		bounds_br	{ left top -8 -8 8 8 }
+		material	menu_backing
+		uv			{ 0 0 8 8 56 56 64 64 }
+		colour		white
+	}
+}
+
+GUITemplate
+{
+	name	menu_title
+
+	GUIBitmap
+	{
+		name		bitmap_title
+		bounds		{ left top 0 0% 100% 100% }
+		material	title
+	}
+}
+
+GUITemplate
+{
+	name	menu_label_green_backing
+
+	GUIBitmap
+	{
+		name		bitmap_label_green_backing
+		bounds		{ left top 0 0% 100% 100% }
+		material	label_green_backing
+	}
+}
+
+GUITemplate
+{
+	name	menu_background
+
+	GUIBitmap
+	{
+		name		bitmap_background
+		bounds		{ left top 0 0% 100% 100% }
+		material	background
+	}
+}
+
+GUITemplate
+{
+	name	menu_game_title
+
+	GUIBitmap
+	{
+		name		bitmap_menu_game_title
+		bounds		{ left top 0 0% 100% 100% }
+		material	mat_game_title
+	}
+}
+
+GUITemplate
+{
+	name	menu_menu_car_red_render
+
+	GUIBitmap
+	{
+		name		bitmap_menu_car_red_render
+		bounds		{ left top 0 0% 100% 100% }
+		material	mat_menu_car_red_render
+	}
+}
+
+GUITemplate
+{
+	name	menu_car_eclipse_red
+
+	GUIBitmap
+	{
+		name		bitmap_car_eclipse_red
+		bounds		{ left top 0 0% 100% 100% }
+		material	red_eclipse_car
+	}
+}
+
+GUITemplate
+{
+	name	menu_car_eclipse_gray
+
+	GUIBitmap
+	{
+		name		bitmap_car_eclipse_gray
+		bounds		{ left top 0 0% 100% 100% }
+		material	gray_eclipse_car
+	}
+}
+
+GUITemplate
+{
+	name	menu_car_eclipse_blue
+
+	GUIBitmap
+	{
+		name		bitmap_car_eclipse_blue
+		bounds		{ left top 0 0% 100% 100% }
+		material	blue_eclipse_car
+	}
+}
+
+GUITemplate
+{
+	name	menu_car_eclipse_purple
+
+	GUIBitmap
+	{
+		name		bitmap_car_eclipse_purple
+		bounds		{ left top 0 0% 100% 100% }
+		material	purple_eclipse_car
+	}
+}
+
+GUITemplate
+{
+	name	menu_button_bg_alpha
+
+	GUIBitmap
+	{
+		name		bitmap_button_bg_alpha
+		bounds		{ left top 0 0% 100% 100% }
+		material	button_bg_alpha
+	}
+}
+
+GUITemplate
+{
+	name	menu_stats_page_bg
+
+	GUIBitmap
+	{
+		name		bitmap_menu_stats_page_bg
+		bounds		{ left top 0 0% 100% 100% }
+		material	mat_menu_stats_page_bg
+	}
+}
+
+GUITemplate
+{
+	name	menu_controls_bg_alpha
+
+	GUIBitmap
+	{
+		name		bitmap_controls_bg_alpha
+		bounds		{ left top 0 0% 100% 100% }
+		material	button_controls_alpha
+	}
+}
+
+GUITemplate
+{
+	name	menu_controls_element_01
+
+	GUIBitmap
+	{
+		name		bitmap_menu_controls_element_01
+		bounds		{ left top 0 0% 100% 100% }
+		material	mat_menu_controls_element_01
+	}
+}
+
+GUITemplate
+{
+	name	menu_controls_element_02
+
+	GUIBitmap
+	{
+		name		bitmap_menu_controls_element_02
+		bounds		{ left top 0 0% 100% 100% }
+		material	mat_menu_controls_element_02
+	}
+}

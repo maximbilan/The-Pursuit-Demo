@@ -1,0 +1,8 @@
+// Source file: 
+// Exported By: <Unknown> on 12/22/12 20:16:09
+
+CIwResGroup
+{
+	name "teapot"
+	"./models/Teapot001.geo" { userString "collision" }
+}

@@ -1,0 +1,220 @@
+// Options Controls screen
+
+GUIFrame
+{
+	name			menu_controls
+	bounds			{ left top 0 0 100% 100% }
+
+	GUIFrame
+	{
+		name			menu_controls_background
+		bounds			{ left top 0% 0% 100% 100% }
+		addTemplate		menu_background
+	}
+	
+	GUIFrame
+	{
+		name			menu_controls_back_frame
+		bounds			{ left top 91% 86% 8% 12% }
+	
+		GUIButton
+		{
+			name		mc_back_button
+			bounds		{ left top 0% 0% 100% 100% }
+
+			addTemplate button_green_back
+
+			GUILabel
+			{
+				useTemplate	button_label
+				string		STR_EMPTY
+			}
+		}
+	}
+	
+	GUIFrame
+	{
+		name		menu_controls_title
+		bounds		{ left top 0% 2% 100% 12% }
+
+		addTemplate	menu_title
+		
+		GUILabel
+		{
+			useTemplate		text_label
+
+			name			menu_controls_title_label
+			bounds			{ left centre 7% 42% 90% 50% }
+			string			MC_CONTROLS_TITLE
+		}
+	}
+	
+	GUIFrame
+	{
+		name			menu_controls_page_frame
+		bounds			{ left top 2% 30% 80% 80% }
+	
+		GUIFrame
+		{
+			name			menu_controls_page_bg_alpha
+			bounds			{ left top 10% 0% 50% 50% }
+			addTemplate		menu_controls_bg_alpha
+			
+			GUIFrame
+			{
+				name			mc_controls_element_01
+				bounds			{ left top 9% 22% 80% 60% }
+				addTemplate		menu_controls_element_01
+			}
+			
+			GUIFrame
+			{
+				name			mc_controls_element_02
+				bounds			{ left top 9% 22% 80% 60% }
+				addTemplate		menu_controls_element_02
+			}
+		}
+	}
+	
+	GUIFrame
+	{
+		name			menu_controls_arrow_left_frame
+		bounds			{ left top 1% 46% 8% 12% }
+	
+		GUIButton
+		{
+			name		mc_arrow_left_button
+			bounds		{ left top 0% 0% 100% 100% }
+
+			addTemplate button_arrow_left
+
+			GUILabel
+			{
+				useTemplate	button_label
+				string		STR_EMPTY
+			}
+		}
+	}
+	
+	GUIFrame
+	{
+		name			menu_controls_arrow_right_frame
+		bounds			{ left top 50% 46% 8% 12% }
+	
+		GUIButton
+		{
+			name		mc_arrow_right_button
+			bounds		{ left top 0% 0% 100% 100% }
+
+			addTemplate button_arrow_right
+
+			GUILabel
+			{
+				useTemplate	button_label
+				string		STR_EMPTY
+			}
+		}
+	}
+	
+	GUIFrame
+	{
+		name			menu_controls_checkbox_frame
+		bounds			{ left top 62% 40% 50% 50% }
+	
+		GUIFrame
+		{
+			name			menu_cotrols_autogas_btn_bg_alpha
+			bounds			{ left top 3% 0% 66% 20% }
+			addTemplate		menu_button_bg_alpha
+			
+			GUIButton
+			{
+				name		mc_autogas_checkbox_on
+				bounds		{ left top 1% 5% 30% 90% }
+	
+				addTemplate checkbox_blue
+
+				GUILabel
+				{
+					name		mc_autogas_label
+
+					bounds		{ centre centre 50% 50% 100% 100% }
+					align		{ centre centre }
+					colour		white
+					font		tahoma_medium
+				}
+			}
+			
+			GUIFrame
+			{
+				name		menu_cotrols_green_label_autogas
+				bounds		{ left top 34% 4% 65% 90% }
+	
+				addTemplate	menu_label_green_backing
+				
+				GUILabel
+				{
+					useTemplate	button_label
+					string		MC_AUTOGAS
+				}
+			}
+		}
+		
+		GUIFrame
+		{
+			name			menu_controls_flip_btn_bg_alpha
+			offset			{ menu_cotrols_autogas_btn_bg_alpha bottom spacing 6% }
+			addTemplate		menu_button_bg_alpha
+			
+			GUIButton
+			{
+				name		mc_flip_checkbox_on
+				bounds		{ left top 1% 5% 30% 90% }
+	
+				addTemplate checkbox_blue
+				
+				GUILabel
+				{
+					name		mc_flip_label
+
+					bounds		{ centre centre 50% 50% 100% 100% }
+					align		{ centre centre }
+					colour		white
+					font		tahoma_medium
+				}
+			}
+			
+			GUIFrame
+			{
+				name		menu_controls_green_label_flip
+				bounds		{ left top 34% 4% 65% 90% }
+	
+				addTemplate	menu_label_green_backing
+				
+				GUILabel
+				{
+					useTemplate	button_label
+					string		MC_FLIP
+				}
+			}
+		}
+	}
+	
+	GUIFrame
+	{
+		name			menu_controls_element_name_frame
+		bounds			{ left top 9% 75% 41% 15% }
+	
+		addTemplate button_green
+	
+		GUILabel
+		{
+			name		mc_element_name_label
+
+			bounds		{ centre centre 50% 50% 100% 100% }
+			align		{ centre centre }
+			colour		white
+			font		tahoma_medium
+		}
+	}
+}

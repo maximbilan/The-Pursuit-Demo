@@ -1,0 +1,34 @@
+// The UI elements required for the ok dialog
+
+GUIFrame
+{
+	name		popup_ok
+	bounds		{ centre centre 50% 50% 47% 20% aspect-height 1000 400 }
+
+	addTemplate	menu_backing
+
+	GUILabel
+	{
+		useTemplate		text_label
+
+		name			popup_text
+		bounds			{ centre centre 50% 30% 90% 50% }
+		align			{ centre centre }
+		text			"Text"
+	}
+
+	GUIButton
+	{
+		name			popup_ok
+		bounds			{ centre centre 50% 70% 40% 30% }
+
+		addTemplate		button_green
+
+		GUILabel
+		{
+			useTemplate	button_label
+			string		OK
+		}
+	}
+
+}

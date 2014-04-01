@@ -1,0 +1,12 @@
+// Source file: 2003-eclipse_work_export_to_game.max
+// Exported By: <Unknown> on 01/20/13 15:10:06
+
+CIwResGroup
+{
+	name "car_eclipse"
+	"./models/body.geo" { userString "collision" }
+	"./models/frwheel.geo" { userString "collision" }
+	"./models/flwheel.geo" { userString "collision" }
+	"./models/rrwheel.geo" { userString "collision" }
+	"./models/rlwheel.geo" { userString "collision" }
+}

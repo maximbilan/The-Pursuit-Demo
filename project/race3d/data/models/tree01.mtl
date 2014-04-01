@@ -1,0 +1,8 @@
+// Source file: trees.max
+CIwMaterial
+{
+	name "tree01/material01"
+	colSpecular {165,165,165}
+	specularPower 60
+	texture0 "./textures/DESERT60.tga"
+}

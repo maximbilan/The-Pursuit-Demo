@@ -1,0 +1,42 @@
+# This file is for configuration settings for your
+# application.
+#
+# The syntax is similar to windows .ini files ie
+#
+# [GroupName]
+# Setting = Value
+#
+# Which can be read by your application using
+#  e.g s3eConfigGetString("GroupName", "Setting", string)
+#
+# All settings must be documented in .config.txt files.
+# New settings specific to this application should be
+# documented in app.config.txt
+#
+# Some conditional operations are also permitted, see the
+# S3E documentation for details.
+
+[S3E]
+MemSize=100663296	# 96 Mb
+
+{}
+
+[S3E]
+IOSDispScaleFactor = 200
+
+{ID=IPHONE "iPad1,1","iPod4,1","iPhone2,1"}
+[s3e]
+MemSize=50331648	# 48 Mb
+{ID=IPHONE "iPad3,1","iPad3,2","iPad3,3","iPad3,4" }
+[s3e]
+MemSize=134217728	# 128 Mb
+{ID=IPHONE "iPod1,1","iPod2,1","iPod3,1","iPhone1,1","iPhone1,2"}
+[s3e]
+MemSize = 33554432	# 32 Mb
+{ID=IPHONE "iPod5,1","iPhone3,1","iPhone3,2","iPhone4,1","iPhone4,2","iPad2,1","iPad2,2","iPhone5,1","iPad2,3","iPad2,4","iPad2,5","iPad2,6","iPad2,7"}
+[s3e]
+MemSize=100663296	# 96 Mb
+{}
+
+#indicate that the app can use gl2 if available
+SysGlesVersion=2

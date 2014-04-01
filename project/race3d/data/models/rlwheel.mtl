@@ -1,0 +1,6 @@
+// Source file: 2003-eclipse_work_export_to_game.max
+CIwMaterial
+{
+	name "rlwheel/Material_5"
+	texture0 "./textures/wheel-diffuse-256.tga"
+}

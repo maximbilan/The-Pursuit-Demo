@@ -1,0 +1,29 @@
+CIwResGroup
+{
+	name	"ui"
+
+	// Materials/textures
+	"./ui.mtl"
+
+	// GUI Colour definitions
+	"./colours.itx"
+
+	// GUI templates
+	"./templates.itx"
+
+	// GUI layout files
+	"./main_menu.itx"
+	"./menu_options.itx"
+	"./menu_about.itx"
+	"./menu_languages.itx"
+	"./menu_sounds.itx"
+	"./menu_controls.itx"
+	"./menu_splashscreen.itx"
+	"./menu_gamemode.itx"
+	"./menu_ingame.itx"
+	"./menu_statistics.itx"
+	"./popup_yes_no.itx"
+	"./popup_ok.itx"
+	"./game_gui.itx"
+}
+

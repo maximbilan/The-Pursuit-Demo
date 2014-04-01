@@ -1,0 +1,12 @@
+// Source file: 2003-eclipse_work_export_to_game_low_textures.max
+// Exported By: <Unknown> on 02/20/13 11:48:21
+
+CIwResGroup
+{
+	name "car_eclipse_red"
+	"./models/car_eclipse_red_body.geo" { userString "collision" }
+	"./models/car_eclipse_red_frwheel.geo" { userString "collision" }
+	"./models/car_eclipse_red_flwheel.geo" { userString "collision" }
+	"./models/car_eclipse_red_rrwheel.geo" { userString "collision" }
+	"./models/car_eclipse_red_rlwheel.geo" { userString "collision" }
+}

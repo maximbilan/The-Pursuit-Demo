@@ -1,0 +1,41 @@
+# This file is for configuration settings for your
+# application.
+#
+# The syntax is similar to windows .ini files ie
+#
+# [GroupName]
+# Setting = Value
+#
+# Which can be read by your application using
+#  e.g s3eConfigGetString("GroupName", "Setting", string)
+#
+# All settings must be documented in .config.txt files.
+# New settings specific to this application should be
+# documented in app.config.txt
+#
+# Some conditional operations are also permitted, see the
+# S3E documentation for details.
+
+[S3E]
+MemSize=67108864 # 64 Mb default value
+
+[S3E]
+{ [s3e] DispAreaQ >= 153600 }	# 480x320
+MemSize = 33554432	# 32 Mb
+
+{ [s3e] DispAreaQ >= 307200 }	# 640x480
+MemSize=50331648	# 48 Mb
+
+{ [s3e] DispAreaQ >= 384000 }	# 800x480
+MemSize=67108864	# 64 Mb
+
+{ [s3e] DispAreaQ >= 983040 }	# 1280x768
+MemSize=100663296	# 96 Mb
+
+{ [s3e] DispAreaQ >= 3145728 }	# 2048x1536
+MemSize=134217728	# 128 Mb
+
+{}
+
+#indicate that the app can use gl2 if available
+SysGlesVersion=2

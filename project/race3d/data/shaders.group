@@ -1,0 +1,9 @@
+CIwResGroup
+{
+	name "shaders"
+	shared true
+	"./shaders/lambert.itx"
+	"./shaders/cartoon.itx"
+	"./shaders/sepia.itx"
+	"./shaders/black_white.itx"
+}

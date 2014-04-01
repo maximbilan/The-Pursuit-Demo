@@ -1,0 +1,15 @@
+// Source file: car_05_20.max
+// Exported By: <Unknown> on 12/29/12 10:37:19
+
+CIwResGroup
+{
+	name "car_lowmodel2"
+	"./models/car_05_clean_glass.geo"
+	"./models/cleanwheel_F_L.geo" { userString "collision" }
+	"./models/cleanwheel_F_R.geo" { userString "collision" }
+	"./models/cleanwheel_B_L.geo" { userString "collision" }
+	"./models/cleanwheel_B_R.geo" { userString "collision" }
+	"./models/car_05_clean.geo" { userString "collision" }
+	"./models/car_05_damaged.geo"
+	"./models/wheel_cylinder1.geo"
+}

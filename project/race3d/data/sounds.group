@@ -1,0 +1,39 @@
+CIwResGroup
+{
+	name	"sounds"
+
+	"./sounds/mainmenu.wav"
+	"./sounds/gameplay.wav"
+	"./sounds/select.wav"
+	
+	CIwSoundGroup
+	{
+		name menu_music	
+	}
+	CIwSoundSpec
+	{
+		name mainmenu
+		data mainmenu
+		group menu_music
+		loop 1
+	}
+	
+	CIwSoundGroup
+	{
+		name gameplay_group	
+	}
+	CIwSoundSpec
+	{
+		name gameplay
+		data gameplay
+		group gameplay_group
+		loop 1
+	}
+	
+	CIwSoundSpec
+	{
+		name select
+		data select
+	}
+}
+

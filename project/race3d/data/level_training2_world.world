@@ -1,0 +1,2815 @@
+// Source file: training2.max
+//Template: E:/Marmalade/6.2/tools/Exporters/Max/metabase.txt  Version:created: 05/14/10 14:35:34
+//Template: E:\Marmalade\6.2\s3e\..\tools\Director\data\expmetatemplate.txt  Version:
+
+CStatic
+{
+	name "terrain_ground"
+	pos  { -50.730545 0 29.532461 }
+	rot  { 1 0 0 0 }
+	model "terrain_ground"
+	groupName terrain_training
+	entityType Terrain
+	collisionType Mesh
+	mass 0
+}
+CStatic
+{
+	name "guardrail_large"
+	pos  { 0 363.437653 19973.320313 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large001"
+	pos  { -3060.347656 353.776855 19973.320313 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large002"
+	pos  { -6198.413574 388.631165 19973.320313 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large003"
+	pos  { -9345.74707 340.02948 19973.320313 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large004"
+	pos  { -12496.431641 333.321655 19973.320313 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large005"
+	pos  { -15681.475586 325.470978 19973.320313 }
+	rot  { 0.99724 0 0.074245 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large007"
+	pos  { 3129.730225 310.919922 19973.320313 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large008"
+	pos  { 6282.395508 318.567841 19973.320313 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large009"
+	pos  { 9408.152344 338.621185 19973.320313 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large010"
+	pos  { 12529.490234 395.642212 19973.320313 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large011"
+	pos  { 15633.424805 353.324158 19973.320313 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large012"
+	pos  { 18744.955078 354.713226 18873.792969 }
+	rot  { 0.980086 0 0.198576 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large013"
+	pos  { 722.985291 392.670685 -19644.785156 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large014"
+	pos  { 3783.33374 343.618744 -19644.787109 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large015"
+	pos  { 6921.398926 303.077972 -19644.787109 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large016"
+	pos  { 13219.418945 354.459839 -19644.845703 }
+	rot  { 0 -0.000873 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large017"
+	pos  { 16312.933594 361.423798 -19811.4375 }
+	rot  { 0.107308 0.013976 -0.994126 0.001696 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large018"
+	pos  { 10068.750977 259.039307 -19644.84375 }
+	rot  { 0 -0.000873 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large019"
+	pos  { -2406.744141 299.851349 -19644.816406 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large020"
+	pos  { -5559.410156 258.990601 -19644.816406 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large021"
+	pos  { -8685.166016 325.794617 -19644.816406 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large022"
+	pos  { -14910.438477 250.460251 -19644.816406 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large023"
+	pos  { -11806.503906 251.430115 -19644.816406 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large024"
+	pos  { -18021.96875 320.149017 -19765.337891 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large025"
+	pos  { 20686.556641 229.205231 16262.889648 }
+	rot  { 0.855616 0 0.517611 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large026"
+	pos  { 20686.556641 339.809326 13077.845703 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large027"
+	pos  { 20686.558594 227.80687 9927.15918 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large028"
+	pos  { 20686.558594 284.907867 6779.824707 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large029"
+	pos  { 20686.560547 321.605164 3641.758057 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large030"
+	pos  { 20686.560547 339.223938 581.409485 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large031"
+	pos  { 20686.560547 277.318878 -2548.321289 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large032"
+	pos  { 20686.560547 293.038849 -5700.986328 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large033"
+	pos  { 20686.560547 290.971375 -8826.743164 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large034"
+	pos  { 20686.5625 319.464539 -11948.080078 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large035"
+	pos  { 20686.5625 323.226166 -15052.019531 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large036"
+	pos  { 20947.277344 312.530365 -18001.703125 }
+	rot  { 0.739511 0 0.673145 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large037"
+	pos  { -20878.943359 330.817627 18575.84375 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large038"
+	pos  { -20878.945313 330.817627 15491.850586 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large039"
+	pos  { -20878.939453 330.817627 12387.908203 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large040"
+	pos  { -20878.941406 394.114227 9266.574219 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large041"
+	pos  { -20878.943359 313.833862 6140.816895 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large042"
+	pos  { -20878.943359 454.30777 2988.149658 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large043"
+	pos  { -20878.943359 634.81311 -141.579147 }
+	rot  { 0.705291 0.050644 -0.705291 -0.050644 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large044"
+	pos  { -20878.945313 883.14563 -3201.927002 }
+	rot  { 0.705899 -0.041305 -0.705899 0.041305 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large045"
+	pos  { -20878.943359 555.39679 -6339.991699 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large046"
+	pos  { -20878.949219 643.445374 -9487.328125 }
+	rot  { 0.705916 0.041027 -0.705916 -0.041027 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large047"
+	pos  { -20878.943359 790.664307 -12638.017578 }
+	rot  { 0.705586 -0.046356 -0.705586 0.046356 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large048"
+	pos  { -20878.943359 514.962646 -15823.057617 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large_90deg_in"
+	pos  { -18813.537109 436.572418 20361.498047 }
+	rot  { 0.999636 0 0.026995 0 }
+	model "guardrail_large_90deg_in"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large_90deg_in001"
+	pos  { -20719.916016 318.833862 -18992.408203 }
+	rot  { 0.506738 0 -0.8621 0 }
+	model "guardrail_large_90deg_in"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large_90deg_in002"
+	pos  { 19439.417969 348.771881 -20462.388672 }
+	rot  { -0.115747 0 -0.993279 0 }
+	model "guardrail_large_90deg_in"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree01"
+	pos  { 0 892.99353 21940.013672 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree093"
+	pos  { 8726.724609 892.99353 21940.013672 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree094"
+	pos  { 12457.544922 815.265564 20927.302734 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree095"
+	pos  { 20399.476563 815.265564 20927.302734 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree096"
+	pos  { 21668.859375 578.358459 17462.59375 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree097"
+	pos  { 21668.859375 578.358459 8223.079102 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree098"
+	pos  { 22825.873047 1355.248779 1745.479492 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree099"
+	pos  { 22210.773438 935.48645 -2952.841064 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree100"
+	pos  { 22210.773438 812.503601 -7446.09375 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree101"
+	pos  { 21580.082031 812.503601 -13203.351563 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree102"
+	pos  { 22613.609375 1369.752075 -16967.390625 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree103"
+	pos  { 18379.123047 1640.584473 -22114.816406 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree104"
+	pos  { 10702.285156 1235.674805 -22114.816406 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree105"
+	pos  { 2176.982178 1503.513306 -20861.994141 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree106"
+	pos  { -2376.006592 1255.217163 -22455.921875 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree107"
+	pos  { -7673.166016 1662.848755 -22079.671875 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree108"
+	pos  { -12675.057617 806.314331 -22079.671875 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree109"
+	pos  { -16355.354492 806.314331 -20441.046875 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree110"
+	pos  { -22281.820313 1870.616455 -18622.917969 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree111"
+	pos  { -21363.390625 1383.020874 -12872.423828 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree112"
+	pos  { -21363.390625 1010.238647 -8297.554688 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree113"
+	pos  { -22385.044922 1790.174927 -4137.04248 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree114"
+	pos  { -21463.259766 837.072144 5632.102539 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree115"
+	pos  { -22321.554688 1250.243774 11968.643555 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree116"
+	pos  { -21562.138672 697.793823 18235.259766 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree117"
+	pos  { -19397.431641 902.224121 22713.449219 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree118"
+	pos  { -13347.133789 902.224121 22713.449219 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree119"
+	pos  { -6436.818848 902.224121 21567.3125 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree120"
+	pos  { -2478.585938 902.224121 21567.3125 }
+	rot  { 1 0 0 0 }
+	model "tree01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree02"
+	pos  { 4506.42627 999.341187 21854.587891 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree004"
+	pos  { 7162.621094 1134.212891 21854.587891 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree005"
+	pos  { 11020.827148 1019.090637 21191.800781 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree006"
+	pos  { 14260.821289 1019.090637 21854.587891 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree007"
+	pos  { 14260.821289 1019.090637 21854.587891 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree008"
+	pos  { 15235.489258 1019.090637 21401.207031 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree009"
+	pos  { 17965.119141 1019.090637 21401.207031 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree010"
+	pos  { 21765.09375 1442.774536 21401.207031 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree011"
+	pos  { 21765.09375 858.882141 19057.267578 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree012"
+	pos  { 21765.09375 858.882141 13210.103516 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree013"
+	pos  { 23077.152344 1558.766235 13210.103516 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree014"
+	pos  { 23077.152344 1741.747925 8257.779297 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree015"
+	pos  { 22660.367188 1741.747925 6663.919922 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree016"
+	pos  { 22660.367188 1129.674927 -867.650574 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree017"
+	pos  { 22300.193359 972.278015 -5609.751953 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree018"
+	pos  { 22300.193359 972.278015 -12152.18457 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree019"
+	pos  { 22300.193359 972.278015 -15270.105469 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree020"
+	pos  { 22300.193359 972.278015 -18754.740234 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree021"
+	pos  { 21779.417969 972.278015 -19508.320313 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree022"
+	pos  { 21779.417969 1572.886353 -21373.265625 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree023"
+	pos  { 19464.496094 1242.360107 -21373.265625 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree024"
+	pos  { 13886.036133 1242.360107 -21373.265625 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree025"
+	pos  { 10008.24707 963.086609 -21373.265625 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree026"
+	pos  { 6881.084473 1337.216919 -21373.265625 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree027"
+	pos  { 3955.032959 1340.067017 -21627.117188 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree028"
+	pos  { 571.832397 2236.126465 -21627.117188 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree029"
+	pos  { -3563.952393 708.806335 -21627.117188 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree030"
+	pos  { -6862.678223 708.806335 -20423.529297 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree031"
+	pos  { -10512.640625 1247.549316 -21723.851563 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree032"
+	pos  { -14366.104492 984.994141 -21723.851563 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree033"
+	pos  { -17572.558594 1435.312012 -21723.851563 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree034"
+	pos  { -21183.826172 1100.952271 -21723.851563 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree035"
+	pos  { -22230.990234 1609.272339 -19741.058594 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree036"
+	pos  { -22230.990234 1609.272339 -16296.245117 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree037"
+	pos  { -22937.011719 1818.003784 -14622.321289 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree038"
+	pos  { -22937.011719 1818.003784 -14622.321289 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree039"
+	pos  { -22937.011719 1683.552368 -11401.726563 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree040"
+	pos  { -22937.011719 1578.946045 -7962.577637 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree041"
+	pos  { -22937.011719 1974.285645 -6069.600098 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree042"
+	pos  { -22937.011719 1575.242798 -3165.019775 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree043"
+	pos  { -22142.052734 1364.142456 -1902.02832 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree044"
+	pos  { -22142.052734 977.434875 62.479286 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree045"
+	pos  { -22860.396484 826.761292 1973.654419 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree046"
+	pos  { -22275.544922 826.761292 4331.313477 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree047"
+	pos  { -22275.544922 1524.038452 6970.972168 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree048"
+	pos  { -22275.544922 1492.506714 10441.070313 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree049"
+	pos  { -22275.544922 1099.496338 13835.553711 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree050"
+	pos  { -23147.310547 1583.485352 15410.304688 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree051"
+	pos  { -23147.310547 1120.14624 19020.208984 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree052"
+	pos  { -23147.310547 1120.14624 20178.326172 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree053"
+	pos  { -20757.607422 850.84668 21848.273438 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree054"
+	pos  { -17459.945313 850.84668 21848.273438 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree055"
+	pos  { -14352.160156 850.84668 21540.951172 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree056"
+	pos  { -11886.216797 850.84668 22616.962891 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree057"
+	pos  { -8374.206055 850.84668 21956.699219 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree058"
+	pos  { -6439.901855 850.84668 22697.326172 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree059"
+	pos  { -4206.064941 1302.964111 22697.326172 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree060"
+	pos  { -1926.371704 1302.964111 22697.326172 }
+	rot  { 1 0 0 0 }
+	model "tree02"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree03"
+	pos  { 2405.145508 841.134399 21038.617188 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree061"
+	pos  { 5742.435547 841.134399 21360.6875 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree062"
+	pos  { 9325.936523 841.134399 20512.693359 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree063"
+	pos  { 14057.041992 741.89209 20512.693359 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree064"
+	pos  { 18955.294922 741.89209 20512.693359 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree065"
+	pos  { 22551.273438 958.191406 15779.947266 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree066"
+	pos  { 22551.273438 1318.873901 9801.696289 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree067"
+	pos  { 22551.273438 1318.873901 3256.681885 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree068"
+	pos  { 21306.923828 601.203613 -4483.550781 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree069"
+	pos  { 22282.869141 601.203613 -9087.268555 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree070"
+	pos  { 22282.869141 1080.871704 -14031.81543 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree071"
+	pos  { 16869.097656 1548.922485 -21481.261719 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree072"
+	pos  { 22282.869141 1080.871704 -20256.693359 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree073"
+	pos  { 12143.663086 878.797791 -21481.261719 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree074"
+	pos  { 8538.993164 878.797791 -21481.261719 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree075"
+	pos  { 5533.27832 878.797791 -20144.173828 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree076"
+	pos  { -1096.556274 879.907837 -21041.525391 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree077"
+	pos  { -5529.024414 618.979858 -21041.525391 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree078"
+	pos  { -9186.275391 767.88739 -20457.615234 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree079"
+	pos  { -12797.144531 529.201782 -21149.417969 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree080"
+	pos  { -18179.447266 1023.922607 -21149.417969 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree081"
+	pos  { -20390.457031 480.157959 -20021.630859 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree082"
+	pos  { -22501.03125 1654.290283 -14242.887695 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree083"
+	pos  { -22501.03125 1376.115723 -9806.859375 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree084"
+	pos  { -21556.695313 1034.907349 -6527.844727 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree085"
+	pos  { -21556.695313 1408.009521 -2653.070801 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree086"
+	pos  { -21556.695313 545.242981 2315.710449 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree087"
+	pos  { -21994.787109 1625.960938 9150.52832 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree088"
+	pos  { -21994.787109 940.582581 16113.442383 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree089"
+	pos  { -21994.787109 1139.498779 21519.289063 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree090"
+	pos  { -16010.010742 871.883484 21519.289063 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree091"
+	pos  { -10785.125 871.883484 21519.289063 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "tree092"
+	pos  { -4670.758789 871.883484 20810.035156 }
+	rot  { 1 0 0 0 }
+	model "tree03"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "lamp01"
+	pos  { 9236.415039 326.895996 -19914.5625 }
+	rot  { 1 0 0 0 }
+	model "lamp01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "lamp002"
+	pos  { -8282.645508 326.895996 -19914.5625 }
+	rot  { 1 0 0 0 }
+	model "lamp01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "lamp003"
+	pos  { -21236.757813 623.51416 -9760.797852 }
+	rot  { 1 0 0 0 }
+	model "lamp01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "lamp004"
+	pos  { -21236.757813 623.51416 8669.667969 }
+	rot  { 1 0 0 0 }
+	model "lamp01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "lamp005"
+	pos  { -10198.960938 274.132721 20545.787109 }
+	rot  { 1 0 0 0 }
+	model "lamp01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "lamp006"
+	pos  { 11337.805664 274.132721 20545.787109 }
+	rot  { 1 0 0 0 }
+	model "lamp01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "lamp007"
+	pos  { 21203.792969 274.132721 11037.733398 }
+	rot  { 1 0 0 0 }
+	model "lamp01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "lamp008"
+	pos  { 21203.792969 99.398582 -10604.771484 }
+	rot  { 1 0 0 0 }
+	model "lamp01"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone"
+	pos  { 2822.677979 200.835175 -8701.800781 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+}
+CDynamic
+{
+	name "cone001"
+	pos  { 4071.802246 124.239548 -7539.224609 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone002"
+	pos  { 5294.203125 124.239548 -6387.969727 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone003"
+	pos  { 7056.164551 -93.601418 -5328.572754 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone004"
+	pos  { 8726.783203 -93.601418 -5328.572754 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone005"
+	pos  { 9690.960938 71.018608 -6371.660645 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone006"
+	pos  { 10508.037109 71.018608 -7468.015137 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone007"
+	pos  { 11823.007813 71.018608 -8069.270996 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone008"
+	pos  { 11823.007813 71.018608 -9642.09668 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone009"
+	pos  { 12461.858398 347.149658 -10869.456055 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone010"
+	pos  { 12697.078125 42.590267 -12666.724609 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone011"
+	pos  { 11455.108398 -40.594421 -13925.623047 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone012"
+	pos  { 9963.014648 61.454544 -15652.998047 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone013"
+	pos  { 7779.299316 61.454544 -15986.995117 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone014"
+	pos  { 5728.01123 61.454544 -15092.801758 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone015"
+	pos  { 4363.73877 61.454544 -14391.55957 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone016"
+	pos  { 3209.687988 19.045969 -12884.045898 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone017"
+	pos  { 3215.601563 -119.245125 -11143.032227 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone018"
+	pos  { 12960.494141 71.018608 3415.648926 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone019"
+	pos  { 15671.148438 71.018608 3213.007568 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone020"
+	pos  { 15953.035156 71.018608 6531.672363 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone021"
+	pos  { 13123.537109 71.018608 6531.672363 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone022"
+	pos  { 12960.494141 71.018608 2608.795166 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "cone023"
+	pos  { 16365.273438 71.018608 5582.366211 }
+	rot  { 1 0 0 0 }
+	model cone
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barell01"
+	pos  { -15360.189453 68.53907 -15477.772461 }
+	rot  { 1 0 0 0 }
+	model barell01
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barell02"
+	pos  { -15440.90332 106.877197 -14895.87207 }
+	rot  { 1 0 0 0 }
+	model barell02
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barell03"
+	pos  { -15981.758789 76.135506 -15330.725586 }
+	rot  { 1 0 0 0 }
+	model barell03
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barell04"
+	pos  { -14341.105469 93.028122 -2405.833984 }
+	rot  { 1 0 0 0 }
+	model barell04
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barell05"
+	pos  { -13330.514648 90.911041 -2399.837402 }
+	rot  { 1 0 0 0 }
+	model barell05
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barell06"
+	pos  { -13961.27832 72.03405 -2912.712646 }
+	rot  { 1 0 0 0 }
+	model barell06
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barrier"
+	pos  { 0 0 10157.176758 }
+	rot  { -0.231523 0 -0.972829 0 }
+	model barrier
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barrier001"
+	pos  { -2115.261963 61.439968 9604.28418 }
+	rot  { -0.019816 0 -0.999804 0 }
+	model barrier
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barrier002"
+	pos  { -4528.527344 74.675751 9604.28418 }
+	rot  { 0.034108 0 -0.999418 0 }
+	model barrier
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barrier003"
+	pos  { -6925.763672 65.695831 9604.28418 }
+	rot  { 0.008265 0 -0.999966 0 }
+	model barrier
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barrier004"
+	pos  { -6920.946777 -1876.194336 9604.28418 }
+	rot  { -0.231523 0 -0.972829 0 }
+	model barrier
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barrier005"
+	pos  { -9996.529297 58.873306 9604.28418 }
+	rot  { 0.17177 0 -0.985137 0 }
+	model barrier
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barrier006"
+	pos  { -11934.875977 55.879997 11905.492188 }
+	rot  { 0.762655 0 0.646806 0 }
+	model barrier
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barrier007"
+	pos  { -10321.216797 60.385769 14482.232422 }
+	rot  { -0.231523 0 -0.972829 0 }
+	model barrier
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barrier008"
+	pos  { -6579.972656 192.272293 15113.413086 }
+	rot  { 0.018623 0 -0.999827 0 }
+	model barrier
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barrier009"
+	pos  { -3846.697266 167.554428 15113.413086 }
+	rot  { -0.051551 0 -0.99867 0 }
+	model barrier
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barrier010"
+	pos  { -693.959473 215.258789 15113.413086 }
+	rot  { 0.251451 0 -0.96787 0 }
+	model barrier
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barrier011"
+	pos  { 1307.899658 128.0914 13403.640625 }
+	rot  { 0.839952 0 0.542661 0 }
+	model barrier
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barrier012"
+	pos  { 2113.789063 78.619698 11636.59082 }
+	rot  { 0.66821 0 0.743972 0 }
+	model barrier
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barrier013"
+	pos  { 13049.366211 52.562992 4543.553711 }
+	rot  { 0.706062 0 -0.70815 0 }
+	model barrier
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barrier014"
+	pos  { 14510.538086 51.670643 6750.285645 }
+	rot  { 0.999997 0 -0.002465 0 }
+	model barrier
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barrier015"
+	pos  { 14510.538086 42.932262 2583.508301 }
+	rot  { -0.03226 0 -0.99948 0 }
+	model barrier
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barrier016"
+	pos  { 16882.78125 50.42979 4379.382324 }
+	rot  { 0.678779 0 0.734343 0 }
+	model barrier
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+	LastPose = undefined
+}
+CLocator
+{
+	name "StartPoint"
+	pos  { 1402.320557 25.4 -13947.551758 }
+	rot  { 1 0 0 0 }
+	actorName Player
+	typeName StartPoint
+}
+CLocator
+{
+	name "SpawnPoint"
+	pos  { 15431.323242 25.4 -13947.551758 }
+	rot  { 1 0 0 0 }
+	actorName Player
+	typeName SpawnPoint
+	LastPose = undefined
+}
+CLocator
+{
+	name "SpawnPoint001"
+	pos  { 15431.323242 25.4 -459.452271 }
+	rot  { 0.774665 0 -0.632371 0 }
+	actorName Player
+	typeName SpawnPoint
+	LastPose = undefined
+}
+CLocator
+{
+	name "SpawnPoint002"
+	pos  { 15431.323242 25.4 16052.59668 }
+	rot  { 0.212282 0 -0.977209 0 }
+	actorName Player
+	typeName SpawnPoint
+	LastPose = undefined
+}
+CLocator
+{
+	name "SpawnPoint003"
+	pos  { 3887.958496 25.4 16052.59668 }
+	rot  { -0.018266 0 -0.999833 0 }
+	actorName Player
+	typeName SpawnPoint
+	LastPose = undefined
+}
+CLocator
+{
+	name "SpawnPoint004"
+	pos  { -15420.272461 25.4 16052.59668 }
+	rot  { -0.018266 0 -0.999833 0 }
+	actorName Player
+	typeName SpawnPoint
+	LastPose = undefined
+}
+CLocator
+{
+	name "SpawnPoint005"
+	pos  { -15420.272461 25.4 -627.298157 }
+	rot  { 0.778762 0 0.627319 0 }
+	actorName Player
+	typeName SpawnPoint
+	LastPose = undefined
+}
+CLocator
+{
+	name "SpawnPoint006"
+	pos  { -15420.272461 25.4 -13311.258789 }
+	rot  { 0.999954 0 0.009565 0 }
+	actorName Player
+	typeName SpawnPoint
+	LastPose = undefined
+}
+CLocator
+{
+	name "SpawnPoint007"
+	pos  { 1402.320557 25.4 -912.623962 }
+	rot  { 1 0 0 0 }
+	actorName Player
+	typeName SpawnPoint
+	LastPose = undefined
+}
+CLocator
+{
+	name "SpawnPoint008"
+	pos  { 589.995605 25.4 -13204.113281 }
+	rot  { 1 0 0 0 }
+	actorName Player
+	typeName SpawnPoint
+	LastPose = undefined
+}

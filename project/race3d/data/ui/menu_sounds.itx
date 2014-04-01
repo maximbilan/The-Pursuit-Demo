@@ -1,0 +1,174 @@
+// Options Sounds screen
+
+GUIFrame
+{
+	name			menu_sounds
+	bounds			{ left top 0 0 100% 100% }
+
+	GUIFrame
+	{
+		name			menu_sounds_background
+		bounds			{ left top 0% 0% 100% 100% }
+		addTemplate		menu_background
+	}
+	
+	GUIFrame
+	{
+		name			menu_sounds_back_frame
+		bounds			{ left top 91% 86% 8% 12% }
+	
+		GUIButton
+		{
+			name		ms_back_button
+			bounds		{ left top 0% 0% 100% 100% }
+
+			addTemplate button_green_back
+
+			GUILabel
+			{
+				useTemplate	button_label
+				string		STR_EMPTY
+			}
+		}
+	}
+	
+	GUIFrame
+	{
+		name		menu_sounds_title
+		bounds		{ left top 0% 2% 100% 12% }
+
+		addTemplate	menu_title
+		
+		GUILabel
+		{
+			useTemplate		text_label
+
+			name			menu_sounds_title_label
+			bounds			{ left centre 7% 42% 90% 50% }
+			string			MC_SOUNDS_TITLE
+		}
+	}
+	
+	GUIFrame
+	{
+		name			menu_effects_buttons_frame
+		bounds			{ left top 2% 25% 80% 80% }
+	
+		GUIFrame
+		{
+			name			menu_effects_btn_bg_alpha
+			bounds			{ left top 3% 0% 66% 20% }
+			addTemplate		menu_button_bg_alpha
+			
+			GUIButton
+			{
+				name		effects_checkbox_on
+				bounds		{ left top 1% 5% 30% 90% }
+	
+				addTemplate checkbox_blue
+
+				GUILabel
+				{
+					name		ms_effects_label
+
+					bounds		{ centre centre 50% 50% 100% 100% }
+					align		{ centre centre }
+					colour		white
+					font		tahoma_medium
+				}
+			}
+			
+			GUIFrame
+			{
+				name		menu_sounds_green_label_effects
+				bounds		{ left top 34% 4% 65% 90% }
+	
+				addTemplate	menu_label_green_backing
+				
+				GUILabel
+				{
+					useTemplate	button_label
+					string		MS_EFFECTS
+				}
+			}
+		}
+		
+		GUIFrame
+		{
+			name			menu_music_btn_bg_alpha
+			offset			{ menu_effects_btn_bg_alpha bottom spacing 6% }
+			addTemplate		menu_button_bg_alpha
+			
+			GUIButton
+			{
+				name		music_checkbox_on
+				bounds		{ left top 1% 5% 30% 90% }
+	
+				addTemplate checkbox_blue
+				
+				GUILabel
+				{
+					name		ms_music_label
+
+					bounds		{ centre centre 50% 50% 100% 100% }
+					align		{ centre centre }
+					colour		white
+					font		tahoma_medium
+				}
+			}
+			
+			GUIFrame
+			{
+				name		menu_sounds_green_label_music
+				bounds		{ left top 34% 4% 65% 90% }
+	
+				addTemplate	menu_label_green_backing
+				
+				GUILabel
+				{
+					useTemplate	button_label
+					string		MS_MUSIC
+				}
+			}
+		}
+		
+		GUIFrame
+		{
+			name			menu_vibration_btn_bg_alpha
+			offset			{ menu_music_btn_bg_alpha bottom spacing 6% }
+			addTemplate		menu_button_bg_alpha
+			
+			GUIButton
+			{
+				name		vibration_checkbox_on
+				bounds		{ left top 1% 5% 30% 90% }
+	
+				addTemplate checkbox_blue
+				
+				GUILabel
+				{
+					name		ms_vibration_label
+
+					bounds		{ centre centre 50% 50% 100% 100% }
+					align		{ centre centre }
+					colour		white
+					font		tahoma_medium
+				}
+			}
+			
+			GUIFrame
+			{
+				name		menu_sounds_green_label_vibration
+				bounds		{ left top 34% 4% 65% 90% }
+	
+				addTemplate	menu_label_green_backing
+				
+				GUILabel
+				{
+					useTemplate	button_label
+					string		MS_VIBRATION
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+// Source file: guardrail_without_proxy_low.max
+CIwMaterial
+{
+	name "guardrail_end_right_c/guardrail"
+	texture0 "./textures/guardrail_low.tga"
+}

@@ -1,0 +1,46 @@
+CIwGxShaderTechnique
+{
+	name "sepia"
+
+	shader "vertex"
+	{
+		// These attributes will attach to the regular iwgx streams
+		attribute highp vec4	inVert;	// Vertices	
+		attribute mediump vec2	inUV0; // UV Stream 0
+		
+		// These uniforms will be filled by the standard iwgx fixed function pipeline
+		uniform mediump mat4	inPMVMat; // transform from local coordinate space to window coordinates
+		uniform mediump vec2	inUVScale; // scale to apply to UVs (gx uses uv scaling for various purposes)
+		
+		// Output of vertex shader
+		varying mediump vec2	outUV0; // UV
+		
+		void main(void)
+		{
+			// Transform the vertex 
+			gl_Position = inPMVMat * inVert;
+
+			// applying the uv scale
+			outUV0 = inUV0 * inUVScale;
+		}
+	}
+
+	shader "fragment"
+	{		
+		// These uniforms will be filled by the standard iwgx fixed function pipeline
+		uniform sampler2D		inSampler0; // texture stage 0
+		
+		// Output of vertex shader
+		varying mediump vec2	outUV0;
+
+		void main(void)
+		{
+			mediump vec3 texel = texture2D( inSampler0, outUV0.xy ).rgb;
+			gl_FragColor = vec4( texel.x, texel.y, texel.z, 1.0 );
+
+			gl_FragColor.r = dot( texel, vec3( 0.393, 0.769, 0.189 ) );
+			gl_FragColor.g = dot( texel, vec3( 0.349, 0.686, 0.168 ) );
+			gl_FragColor.b = dot( texel, vec3( 0.272, 0.534, 0.131 ) );
+		}
+	}
+}

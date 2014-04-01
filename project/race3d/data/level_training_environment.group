@@ -1,0 +1,21 @@
+// Source file: barrels.max
+// Exported By: <Unknown> on 01/22/13 21:34:28
+
+CIwResGroup
+{
+	name "level_training_environment"
+	"./models/barell01.geo" { userString "collision" }
+	"./models/barell02.geo" { userString "collision" }
+	"./models/barell03.geo" { userString "collision" }
+	"./models/barell04.geo" { userString "collision" }
+	"./models/barell05.geo" { userString "collision" }
+	"./models/barell06.geo" { userString "collision" }
+	"./models/guardrail_large_90deg_in.geo" { userString "collision" }
+	"./models/guardrail_large.geo" { userString "collision" }
+	"./models/tree01.geo" { userString "collision" }
+	"./models/tree02.geo" { userString "collision" }
+	"./models/tree03.geo" { userString "collision" }
+	"./models/lamp01.geo" { userString "collision" }
+	"./models/cone.geo" { userString "collision" }
+	"./models/barrier.geo" { userString "collision" }
+}

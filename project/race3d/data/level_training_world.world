@@ -1,0 +1,672 @@
+// Source file: training.max
+//Template: E:/Marmalade/6.1/tools/Exporters/Max/metabase.txt  Version:created: 05/14/10 14:35:34
+//Template: E:\Marmalade\6.1\s3e\..\tools\Director\data\expmetatemplate.txt  Version:
+
+CStatic
+{
+	name "terrain_ground"
+	pos  { 2594.255371 0 0 }
+	rot  { 1 0 0 0 }
+	model "terrain_ground"
+	groupName terrain_training
+	entityType Terrain
+	collisionType Mesh
+	mass 0
+}
+CStatic
+{
+	name "guardrail_large"
+	pos  { -12343.616211 147.589432 20794.412109 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+}
+CStatic
+{
+	name "guardrail_large001"
+	pos  { -9339.136719 147.589432 20794.412109 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large002"
+	pos  { -6330.427734 147.589432 20794.412109 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large003"
+	pos  { -3330.099365 147.589432 20794.412109 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large004"
+	pos  { -340.684387 147.589432 20794.412109 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large005"
+	pos  { 14686.755859 147.589432 20794.412109 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large006"
+	pos  { 11697.341797 147.589432 20794.412109 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large007"
+	pos  { 8697.014648 147.589432 20794.412109 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large008"
+	pos  { 5688.304688 147.589432 20794.412109 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large009"
+	pos  { 2683.826904 147.589432 20794.412109 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large012"
+	pos  { 20651.585938 147.589432 20794.412109 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large014"
+	pos  { 17678.070313 147.589432 20794.412109 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large015"
+	pos  { 22539.880859 147.587891 -16991.978516 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large016"
+	pos  { 22539.880859 147.587891 -14018.464844 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large017"
+	pos  { 22539.880859 147.587891 -11027.150391 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large018"
+	pos  { 22539.880859 147.587891 -8037.736328 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large019"
+	pos  { 22539.880859 147.587891 -5037.407715 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large020"
+	pos  { 22539.880859 147.588501 -2028.697876 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large021"
+	pos  { 22539.880859 147.588409 975.779175 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large022"
+	pos  { 22539.880859 147.588501 4000.290283 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large023"
+	pos  { 22539.880859 147.587891 6989.705566 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large024"
+	pos  { 22539.880859 147.587891 9990.03418 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large025"
+	pos  { 22539.880859 147.589127 12998.742188 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large026"
+	pos  { 22539.880859 147.587891 16003.219727 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large027"
+	pos  { 22539.880859 147.587891 -19966.359375 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large028"
+	pos  { -15252.929688 147.589432 -21862.607422 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large029"
+	pos  { -12279.415039 147.589432 -21862.607422 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large030"
+	pos  { -9288.101563 147.589432 -21862.607422 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large031"
+	pos  { -6298.686523 147.589432 -21862.607422 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large032"
+	pos  { -3298.358398 147.589432 -21862.611328 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large033"
+	pos  { -289.648376 147.589432 -21862.611328 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large034"
+	pos  { 2714.829346 147.589432 -21862.611328 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large035"
+	pos  { 5739.34082 147.589432 -21862.611328 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large036"
+	pos  { 8728.755859 147.589432 -21862.611328 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large037"
+	pos  { 11729.083984 147.589432 -21862.613281 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large038"
+	pos  { 14737.793945 147.589432 -21862.613281 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large039"
+	pos  { 17742.271484 147.589432 -21862.613281 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large040"
+	pos  { -17217.263672 147.587891 -17126.429688 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large041"
+	pos  { -17217.261719 147.589127 -14121.952148 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large042"
+	pos  { -17217.267578 147.587891 -11113.250977 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large043"
+	pos  { -17217.267578 147.587891 -8112.923828 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large044"
+	pos  { -17217.267578 147.588501 -5123.504883 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large045"
+	pos  { -17217.267578 147.588409 -2098.995117 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large046"
+	pos  { -17217.267578 147.588501 905.481323 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large047"
+	pos  { -17217.267578 147.587891 3914.189209 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large048"
+	pos  { -17217.269531 147.587891 6914.518066 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large049"
+	pos  { -17217.269531 147.587891 9903.93457 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large050"
+	pos  { -17217.267578 147.587891 12895.238281 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large051"
+	pos  { -17217.263672 147.587891 15868.764648 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large052"
+	pos  { -17217.269531 147.587891 18843.144531 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large_90deg_in"
+	pos  { -15324.308594 136.758087 20794.412109 }
+	rot  { 1 0 0 0 }
+	model "guardrail_large_90deg_in"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+}
+CStatic
+{
+	name "guardrail_large_90deg_in001"
+	pos  { 22583.685547 136.758087 18957.425781 }
+	rot  { 0.707107 0 0.707107 0 }
+	model "guardrail_large_90deg_in"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large_90deg_in002"
+	pos  { 20688.861328 136.758087 -21863.728516 }
+	rot  { 0 0 -1 0 }
+	model "guardrail_large_90deg_in"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CStatic
+{
+	name "guardrail_large_90deg_in003"
+	pos  { -17182.228516 136.758087 -19985.619141 }
+	rot  { 0.707107 0 -0.707107 0 }
+	model "guardrail_large_90deg_in"
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 0
+	LastPose = undefined
+}
+CDynamic
+{
+	name "barell03"
+	pos  { 0 62.050476 -12717.240234 }
+	rot  { 1 0 0 0 }
+	model barell03
+	groupName level_training_environment
+	entityType Decoration
+	collisionType Mesh
+	mass 10
+}

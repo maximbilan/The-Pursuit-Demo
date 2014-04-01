@@ -1,0 +1,6 @@
+// Source file: 
+CIwMaterial
+{
+	name "barrier/Material_26"
+	texture0 "./textures/Dif_ConcreteBarrier_128.tga"
+}

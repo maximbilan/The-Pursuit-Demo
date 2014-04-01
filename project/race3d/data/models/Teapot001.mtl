@@ -1,0 +1,7 @@
+// Source file: 
+CIwMaterial
+{
+	name "DefaultMaterial00"
+	colAmbient {229,166,215}
+	colDiffuse {229,166,215}
+}

@@ -1,0 +1,7 @@
+option lib
+
+subproject bullet
+
+files
+{
+}

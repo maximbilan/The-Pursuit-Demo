@@ -1,0 +1,303 @@
+// Main menu screen
+
+GUIFrame
+{
+	name			game_gui
+	bounds			{ left top 0 0 100% 100% }
+	
+	// ------------------------------------------------------------
+	// -- Standart
+	// ------------------------------------------------------------
+	GUIButton
+	{
+		name		game_gui_button_up_std
+		bounds		{ left top 3% 82% 10% 15% }
+
+		addTemplate button_play_up
+
+		GUILabel
+		{
+			useTemplate	button_label
+			string		STR_EMPTY
+		}
+	}
+		
+	GUIButton
+	{
+		name		game_gui_button_down_std
+		offset		{ game_gui_button_up_std right spacing 2% }
+
+		addTemplate button_play_down
+
+		GUILabel
+		{
+			useTemplate	button_label
+			string		STR_EMPTY
+		}
+	}
+	
+	GUIButton
+	{
+		name		game_gui_button_left_std
+		bounds		{ right top 85% 82% 10% 15% }
+
+		addTemplate button_play_left
+
+		GUILabel
+		{
+			useTemplate	button_label
+			string		STR_EMPTY
+		}
+	}
+	
+	GUIButton
+	{
+		name		game_gui_button_right_std
+		offset		{ game_gui_button_left_std right spacing 2% }
+
+		addTemplate button_play_right
+
+		GUILabel
+		{
+			useTemplate	button_label
+			string		STR_EMPTY
+		}
+	}
+	
+	// ------------------------------------------------------------
+	// -- Standart flip
+	// ------------------------------------------------------------
+	GUIButton
+	{
+		name		game_gui_button_up_std_flip
+		bounds		{ right top 85% 82% 10% 15% }
+
+		addTemplate button_play_up
+
+		GUILabel
+		{
+			useTemplate	button_label
+			string		STR_EMPTY
+		}
+	}
+		
+	GUIButton
+	{
+		name		game_gui_button_down_std_flip
+		offset		{ game_gui_button_up_std_flip right spacing 1% }
+
+		addTemplate button_play_down
+
+		GUILabel
+		{
+			useTemplate	button_label
+			string		STR_EMPTY
+		}
+	}
+	
+	GUIButton
+	{
+		name		game_gui_button_left_std_flip
+		bounds		{ left top 3% 82% 10% 15% }
+
+		addTemplate button_play_left
+
+		GUILabel
+		{
+			useTemplate	button_label
+			string		STR_EMPTY
+		}
+	}
+	
+	GUIButton
+	{
+		name		game_gui_button_right_std_flip
+		offset		{ game_gui_button_left_std_flip right spacing 1% }
+
+		addTemplate button_play_right
+
+		GUILabel
+		{
+			useTemplate	button_label
+			string		STR_EMPTY
+		}
+	}
+	
+	// ------------------------------------------------------------
+	// -- Accelerometer
+	// ------------------------------------------------------------
+	
+	GUIButton
+	{
+		name		game_gui_button_up_accel
+		bounds		{ left top 3% 82% 10% 15% }
+
+		addTemplate button_play_up
+
+		GUILabel
+		{
+			useTemplate	button_label
+			string		STR_EMPTY
+		}
+	}
+		
+	GUIButton
+	{
+		name		game_gui_button_down_accel
+		bounds		{ right top 97% 82% 10% 15% }
+
+		addTemplate button_play_down
+
+		GUILabel
+		{
+			useTemplate	button_label
+			string		STR_EMPTY
+		}
+	}
+	
+	GUIButton
+	{
+		name		game_gui_button_left_accel
+		bounds		{ left top 0% 0% 0% 0% }
+	}
+	
+	GUIButton
+	{
+		name		game_gui_button_right_accel
+		bounds		{ left top 0% 0% 0% 0% }
+	}
+	
+	// ------------------------------------------------------------
+	// -- Accelerometer flip
+	// ------------------------------------------------------------
+	
+	GUIButton
+	{
+		name		game_gui_button_up_accel_flip
+		bounds		{ right top 97% 82% 10% 15% }
+
+		addTemplate button_play_up
+
+		GUILabel
+		{
+			useTemplate	button_label
+			string		STR_EMPTY
+		}
+	}
+		
+	GUIButton
+	{
+		name		game_gui_button_down_accel_flip
+		bounds		{ left top 3% 82% 10% 15% }
+
+		addTemplate button_play_down
+
+		GUILabel
+		{
+			useTemplate	button_label
+			string		STR_EMPTY
+		}
+	}
+	
+	GUIButton
+	{
+		name		game_gui_button_left_accel_flip
+		bounds		{ left top 0% 0% 0% 0% }
+	}
+	
+	GUIButton
+	{
+		name		game_gui_button_right_accel_flip
+		bounds		{ left top 0% 0% 0% 0% }
+	}
+	
+	// ------------------------------------------------------------
+	// -- Menu button
+	// ------------------------------------------------------------ 
+	
+	GUIButton
+	{
+		name		game_gui_button_menu
+		bounds		{ right top 98% 3% 8% 12% }
+
+		addTemplate button_play_pause
+
+		GUILabel
+		{
+			useTemplate	button_label
+			string		STR_EMPTY
+		}
+	}
+	
+	// ------------------------------------------------------------
+	// -- Respawn button
+	// ------------------------------------------------------------ 
+	
+	GUIButton
+	{
+		name		game_gui_button_respawn
+		bounds		{ left top 2% 3% 8% 12% }
+
+		addTemplate button_play_respawn
+
+		GUILabel
+		{
+			useTemplate	button_label
+			string		STR_EMPTY
+		}
+	}
+	
+	GUILabel
+	{
+		useTemplate		text_small_label
+
+		name			game_gui_best_time_label
+		bounds			{ left top 80% 20% 90% 50% }
+		string			GP_BEST_TIME
+	}
+	
+	GUILabel
+	{
+		useTemplate		text_small_label
+
+		name			game_gui_best_time_value
+		bounds			{ left top 80% 25% 90% 50% }
+		text			""
+	}
+	
+	GUILabel
+	{
+		useTemplate		text_small_label
+
+		name			game_gui_time_label
+		bounds			{ left top 80% 30% 90% 50% }
+		string			GP_TIME
+	}
+	
+	GUILabel
+	{
+		useTemplate		text_small_label
+
+		name			game_gui_time_value
+		bounds			{ left top 80% 35% 90% 50% }
+		text			""
+	}
+	
+	GUILabel
+	{
+		useTemplate		text_small_label
+
+		name			game_gui_lap_label
+		bounds			{ left top 3% 20% 90% 50% }
+		string			GP_LAP
+	}
+	
+	GUILabel
+	{
+		useTemplate		text_small_label
+
+		name			game_gui_lap_value
+		bounds			{ left top 3% 25% 90% 50% }
+		text			""
+	}
+}

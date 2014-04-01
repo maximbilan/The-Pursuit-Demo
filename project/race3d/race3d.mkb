@@ -1,0 +1,417 @@
+#!/usr/bin/env mkb
+
+options
+{
+	app-icf='data/app.icf,data/app-ios.icf,data/app-android.icf,data/app-blackberry.icf'
+}
+
+# files specifies all files to build
+files
+{
+	[Data Fonts]
+	(data/fonts)
+	fonts.group
+
+	[Data UI]
+	(data/ui)
+	colours.itx
+	main_menu.itx
+	game_gui.itx
+	menu_options.itx
+	menu_about.itx
+	menu_sounds.itx
+	menu_languages.itx
+	menu_controls.itx
+	menu_gamemode.itx
+	menu_ingame.itx
+	templates.itx
+	ui.group
+	ui.mtl
+	yes_no.itx
+	popup_yes_no.itx
+
+	[Data Shaders]
+	(data/shaders)
+	lambert.itx
+	cartoon.itx
+	sepia.itx
+	black_white.itx
+	
+	[Data Text]
+	(data/text)
+	EN.str
+	FR.str
+	RU.str
+	GE.str
+	IT.str
+	SP.str
+	
+	[Data CarSettings]
+	(data/car_settings)
+	car_eclipse.xml
+	
+    ["src"]
+    (src)
+    main.cpp
+	game.h
+    game.cpp
+	["src",Engine]
+	(src)
+	Engine/Camera.h
+	Engine/Camera.cpp
+	Engine/Frustum.h
+	Engine/Frustum.cpp
+	Engine/Physics.h
+	Engine/Physics.cpp
+	Engine/Collision.h
+	Engine/Collision.cpp
+	Engine/ShaderManager.h
+	Engine/ShaderManager.cpp
+	Engine/LightManager.h
+	Engine/LightManager.cpp
+	["src",Engine/Sprites]
+	Engine/Sprites/Sprite.h
+	Engine/Sprites/Sprite.cpp
+	Engine/Sprites/SpriteAnim.h
+	Engine/Sprites/SpriteAnim.cpp
+	["src",Engine/Font]
+	Engine/Font/Font.h
+	Engine/Font/Font.cpp
+	Engine/Font/FontManager.h
+	Engine/Font/FontManager.cpp
+	["src",Engine/Record]
+	Engine/Record/Record.h
+	Engine/Record/Record.cpp
+	Engine/Record/RecordDB.h
+	Engine/Record/RecordDB.cpp
+	["src",Engine/Input]
+	Engine/Input/KeyManager.h
+	Engine/Input/KeyManager.cpp
+	Engine/Input/TouchManager.h
+	Engine/Input/TouchManager.cpp
+	Engine/Input/AccelerometerManager.h
+	Engine/Input/AccelerometerManager.cpp
+	["src",Engine/PostProcessing]
+	Engine/PostProcessing/PostEffect.h
+	Engine/PostProcessing/PostEffect.cpp
+	Engine/PostProcessing/PostProcessing.h
+	Engine/PostProcessing/PostProcessing.cpp
+	["src",Common]
+	(src)
+	Common/Singleton.h
+	Common/Defines.h
+	["src",GameObjects]
+	(src)
+	GameObjects/Decoration.h
+	GameObjects/Decoration.cpp
+	GameObjects/Renderable.h
+	GameObjects/Renderable.cpp
+	GameObjects/Entity.h
+	GameObjects/Entity.cpp
+	GameObjects/GameEntity.h
+	GameObjects/GameEntity.cpp
+	GameObjects/Physical.h
+	GameObjects/Physical.cpp
+	GameObjects/Terrain.h
+	GameObjects/Terrain.cpp
+	GameObjects/Car.h
+	GameObjects/Car.cpp
+	GameObjects/Trigger.h
+	GameObjects/Trigger.cpp
+	["src",GameStates]
+	(src)
+	GameStates/GameState.h
+	GameStates/GameState.cpp
+	GameStates/GS_GamePlay.h
+	GameStates/GS_GamePlay.cpp
+	GameStates/GS_Loading.h
+	GameStates/GS_Loading.cpp
+	GameStates/GS_Menu.h
+	GameStates/GS_Menu.cpp
+	["src",Scripting]
+	Scripting/ScriptManager.h
+	Scripting/ScriptManager.cpp
+	Scripting/GlobalScript.h
+	Scripting/GlobalScript.cpp
+	Scripting/GameLevelScript.h
+	Scripting/GameLevelScript.cpp
+	Scripting/ScriptFunctions.h
+	["src",Scripting/LuaWrapper]
+	Scripting/LuaWrapper/LuaDebugger.h
+	Scripting/LuaWrapper/LuaDebugger.cpp
+	Scripting/LuaWrapper/LuaRestoreStack.h
+	Scripting/LuaWrapper/LuaScript.h
+	Scripting/LuaWrapper/LuaScript.cpp
+	Scripting/LuaWrapper/LuaThis.h
+	Scripting/LuaWrapper/LuaVirtualMachine.h
+	Scripting/LuaWrapper/LuaVirtualMachine.cpp
+	["src",GUI]
+	GUI/GUI.cpp
+	GUI/GUI.h
+	GUI/GUIBitmap.cpp
+	GUI/GUIBitmap.h
+	GUI/GUIBorder.cpp
+	GUI/GUIBorder.h
+	GUI/GUIBounds.cpp
+	GUI/GUIBounds.h
+	GUI/GUIButton.cpp
+	GUI/GUIButton.h
+	GUI/GUIColour.cpp
+	GUI/GUIColour.h
+	GUI/GUIDraw.cpp
+	GUI/GUIDraw.h
+	GUI/GUIElement.cpp
+	GUI/GUIElement.h
+	GUI/GUIEventManager.cpp
+	GUI/GUIEventManager.h
+	GUI/GUIFrame.cpp
+	GUI/GUIFrame.h
+	GUI/GUILabel.cpp
+	GUI/GUILabel.h
+	GUI/GUIManager.cpp
+	GUI/GUIManager.h
+	GUI/GUIOffset.cpp
+	GUI/GUIOffset.h
+	GUI/GUISingleton.h
+	GUI/GUITemplate.cpp
+	GUI/GUITemplate.h
+	["src",Localization]
+	Localization/Localization.h
+	Localization/Localization.cpp
+	["src",Menus]
+	Menus/GamePlayCountdown.h
+	Menus/GamePlayCountdown.cpp
+	Menus/GamePlayLog.h
+	Menus/GamePlayLog.cpp
+	Menus/GamePlayLogObj.h
+	Menus/GamePlayLogObj.cpp
+	Menus/MenuManager.h
+	Menus/MenuManager.cpp
+	Menus/MenuElement.h
+	Menus/MenuElement.cpp
+	Menus/MainMenu.h
+	Menus/MainMenu.cpp
+	Menus/MenuSplashScreen.h
+	Menus/MenuSplashScreen.cpp
+	Menus/MenuGameGui.h
+	Menus/MenuGameGui.cpp
+	Menus/Popup.h
+	Menus/Popup.cpp
+	Menus/MenuOptions.h
+	Menus/MenuOptions.cpp
+	Menus/MenuAbout.h
+	Menus/MenuAbout.cpp
+	Menus/MenuSounds.h
+	Menus/MenuSounds.cpp
+	Menus/MenuLanguages.h
+	Menus/MenuLanguages.cpp
+	Menus/MenuControls.h
+	Menus/MenuControls.cpp
+	Menus/LoadingScreen.h
+	Menus/LoadingScreen.cpp
+	Menus/MenuTouch.h
+	Menus/MenuTouch.cpp
+	Menus/MenuGameMode.h
+	Menus/MenuGameMode.cpp
+	Menus/MenuInGame.h
+	Menus/MenuInGame.cpp
+	Menus/MenuStatistics.h
+	Menus/MenuStatistics.cpp
+	["src",GameLogic]
+	GameLogic/GameLevel.h
+	GameLogic/GameLevel.cpp
+	["src",GameLogic/Actor]
+	GameLogic/Actor/Player.h
+	GameLogic/Actor/Player.cpp
+	GameLogic/Actor/Actor.h
+	GameLogic/Actor/Actor.cpp
+	GameLogic/Actor/ActorSpawnPoint.h
+	GameLogic/Actor/ActorSpawnPoint.cpp
+	["src",GameLogic/GameMode]
+	GameLogic/GameMode/GameMode.h
+	GameLogic/GameMode/GameMode.cpp
+	GameLogic/GameMode/GM_Training.h
+	GameLogic/GameMode/GM_Training.cpp
+	GameLogic/GameMode/GM_TimeAttack.h
+	GameLogic/GameMode/GM_TimeAttack.cpp
+	["src",Utilities/Config]
+	Utilities/Config/Config.h
+	Utilities/Config/Config.cpp
+	["src",Utilities/Components]
+	Utilities/Components/SmoothScroll.h
+	Utilities/Components/SmoothScroll.cpp
+	["src",Utilities/SoundManager]
+	Utilities/SoundManager/SoundManager.h
+	Utilities/SoundManager/SoundManager.cpp
+	["src",Utilities/Online/Web]
+	Utilities/Online/Web/WebManager.h
+	Utilities/Online/Web/WebManager.cpp
+	["src",WorldLoader]
+	WorldLoader/WorldLoader.h
+	WorldLoader/WorldLoader.cpp
+	WorldLoader/IObject.h
+	WorldLoader/IObject.cpp
+	WorldLoader/CStatic.h
+	WorldLoader/CStatic.cpp
+	WorldLoader/CDynamic.h
+	WorldLoader/CDynamic.cpp
+	WorldLoader/CLocator.h
+	WorldLoader/CLocator.cpp
+}
+
+includepaths
+{
+    h
+}
+
+defines
+{
+    IW_GXFONT_TTF
+}
+
+subprojects
+{
+	iwgx
+	iwgraphics
+	iwgxfont
+	iwutil
+	src/BulletPhysics/bullet
+	src/SoundEngine/SoundEngine
+	src/Lua/lua
+	src/Transitions2d/transitions2d
+	tinyxml
+}
+
+assets
+{
+    #Deploy .group.bin files from the 'data-ram' directory if they
+    #have been written there by running the application in resource building
+    #mode, otherwise deploy pre-built binaries from the 'data' directory.
+    #
+    #For your own application, you are likely to want only the
+    #'data-ram' directory specified here.
+    #
+    #See the IwResManager documentation for more information on resource building.
+	(data)
+	ui/textures/background.png
+	ui/textures/loading_anim.png
+	ui/textures/loading_anim_32.png
+	text/EN.str
+	text/FR.str
+	text/RU.str
+	text/GE.str
+	text/IT.str
+	text/SP.str
+	(data-ram)
+	car_settings/car_eclipse.bin
+	scripts/level_training.blua
+	scripts/level_time_attack.blua
+	(data-ram/data-gles1)
+	terrain_training.group.bin
+	level_training2_world.bin
+	level_time_attack_world.bin
+	level_training_environment.group.bin
+	car_eclipse_red.group.bin
+	car_eclipse_blue.group.bin
+	car_eclipse_gray.group.bin
+	car_eclipse_purple.group.bin
+	fonts/fonts.group.bin
+	fonts/fonts_low.group.bin
+	fonts/fonts_high.group.bin
+	ui/ui.group.bin
+	sounds.group.bin
+	shaders.group.bin
+}
+
+#### AUTO GENERATED deployment settings from DeployTool.exe. Do not edit below this line ####
+deployments
+{
+	["Default"]
+	android-aliasname='thepursuitdemo'
+	android-icon-gallery='data/icon/icon170x170.png'
+	android-manifest='data/platform/android/AndroidManifest.xml'
+	assets='Default'
+	caption='The Pursuit Demo'
+	copyright='Maxim Bilan'
+	icon='data/platform/ios/icon/Icon.png'
+	iphone-appid='thepursuitdemo'
+	iphone-enable-4inch-retina=1
+	iphone-icon='data/platform/ios/icon/Icon.png'
+	iphone-icon-high-res='data/platform/ios/icon/Icon@2x.png'
+	iphone-icon-ipad='data/platform/ios/icon/Icon-72.png'
+	iphone-icon-ipad-high-res='data/platform/ios/icon/Icon-72@2x.png'
+	iphone-icon-ipad-search='data/platform/ios/icon/Icon-50.png'
+	iphone-icon-ipad-search-high-res='data/platform/ios/icon/Icon-50@2x.png'
+	iphone-icon-settings='data/platform/ios/icon/Icon-Small.png'
+	iphone-icon-settings-high-res='data/platform/ios/icon/Icon-Small@2x.png'
+	iphone-prerendered-icon=1
+	iphone-sign-for-distribution=1
+	iphone-splash='data/platform/ios/launch_image/Default.png'
+	iphone-splash-retina-generate=1
+	itunes-artwork='data/platform/ios/icon/icon512x512.png'
+	name='The Pursuit Demo'
+	provider='Maxim Bilan'
+	version-major=1
+	version-minor=0
+	version-revision=538
+	version-string='1.1.0e'
+	["android"]
+	android-aliasname='thepursuitdemo'
+	android-icon-gallery='data/icon/icon170x170.png'
+	android-manifest='data/platform/android/AndroidManifest.xml'
+	app-icf='data/app.icf,data/app-android.icf'
+	assets='Default'
+	caption='The Pursuit Demo'
+	copyright='Maxim Bilan'
+	icon='data/platform/ios/icon/Icon.png'
+	name='The Pursuit Demo'
+	provider='Maxim Bilan'
+	version-major=1
+	version-minor=0
+	version-revision=538
+	version-string='1.1.0e'
+	["blackberry"]
+	app-icf='data/app.icf,data/app-blackberry.icf'
+	assets='Default'
+	caption='The Pursuit Demo'
+	copyright='Maxim Bilan'
+	icon='data/platform/ios/icon/Icon.png'
+	name='The Pursuit Demo'
+	playbook-icon='data/icon/icon_blackberry.png'
+	provider='Maxim Bilan'
+	version-major=1
+	version-minor=0
+	version-revision=538
+	version-string='1.1.0e'
+	["ios"]
+	app-icf='data/app.icf,data/app-ios.icf'
+	assets='Default'
+	caption='The Pursuit Demo'
+	copyright='Maxim Bilan'
+	icon='data/platform/ios/icon/icon512x512.png'
+	iphone-appid='thepursuitdemo'
+	iphone-enable-4inch-retina=1
+	iphone-icon='data/platform/ios/icon/Icon.png'
+	iphone-icon-high-res='data/platform/ios/icon/Icon@2x.png'
+	iphone-icon-ipad='data/platform/ios/icon/Icon-72.png'
+	iphone-icon-ipad-high-res='data/platform/ios/icon/Icon-72@2x.png'
+	iphone-icon-ipad-search='data/platform/ios/icon/Icon-50.png'
+	iphone-icon-ipad-search-high-res='data/platform/ios/icon/Icon-50@2x.png'
+	iphone-icon-settings='data/platform/ios/icon/Icon-Small.png'
+	iphone-icon-settings-high-res='data/platform/ios/icon/Icon-Small@2x.png'
+	iphone-no-splash='1'
+	iphone-prerendered-icon=1
+	iphone-sign-for-distribution=1
+	iphone-splash='data/platform/ios/launch_image/Default-568h@2x.png'
+	iphone-splash-full-orient=1
+	iphone-splash-retina-generate=1
+	itunes-artwork='data/platform/ios/icon/icon512x512.png'
+	name='The Pursuit Demo'
+	provider='Maxim Bilan'
+	splashscreen='data/platform/ios/launch_image/Default.png'
+	splashscreen-use-all=1
+	version-major=1
+	version-minor=0
+	version-revision=538
+	version-string='1.1.0e'
+}

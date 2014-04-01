@@ -1,0 +1,8 @@
+// Source file: citydetail.max
+// Exported By: <Unknown> on 12/28/12 23:11:12
+
+CIwResGroup
+{
+	name "terrain_ground2"
+	"./models/terrain_ground2.geo" { userString "collision" }
+}

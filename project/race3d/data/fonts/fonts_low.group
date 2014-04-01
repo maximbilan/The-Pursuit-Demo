@@ -1,0 +1,28 @@
+CIwResGroup
+{
+	name "fonts"
+
+	CIwGxFont
+	{
+		name "tahoma_small"
+
+		ttf "tahoma.ttf"
+		ttfPointSize 8
+	}
+	
+	CIwGxFont
+	{
+		name "tahoma_medium"
+
+		ttf "tahoma.ttf"
+		ttfPointSize 14
+	}
+
+	CIwGxFont
+	{
+		name "tahoma_large"
+	
+		ttf "tahoma.ttf"
+		ttfPointSize 22
+	}
+}

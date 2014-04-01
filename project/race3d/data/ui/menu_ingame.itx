@@ -1,0 +1,63 @@
+// Main menu screen
+
+GUIFrame
+{
+	name			menu_ingame
+	bounds			{ left top 33% 25% 33% 50% }
+
+	GUIFrame
+	{
+		name			menu_ingame_background
+		bounds			{ left top 0% 0% 100% 100% }
+		addTemplate		menu_background
+	}
+
+	GUIFrame
+	{
+		name			menu_ingame_buttons_frame
+		bounds			{ left centre 40% 20% 90% 90% }
+	
+		GUIButton
+		{
+			name		mig_resume_button
+			bounds		{ centre top 12% 30% 100% 33% }
+
+			addTemplate button_green
+
+			GUILabel
+			{
+				useTemplate	button_label
+				string		IGM_RESUME
+			}
+		}
+
+		GUIButton
+		{
+			name		mig_options_button
+			offset		{ mig_resume_button bottom spacing 5% }
+	
+			addTemplate button_green
+
+			GUILabel
+			{
+				useTemplate	button_label
+				string		IGM_OPTIONS
+			}
+		}
+
+		GUIButton
+		{
+			name		mig_menu_button
+			offset		{ mig_options_button bottom spacing 4% }
+	
+			addTemplate button_green
+	
+			GUILabel
+			{
+				useTemplate	button_label
+				string		IGM_MENU
+			}
+		}
+
+	}
+}

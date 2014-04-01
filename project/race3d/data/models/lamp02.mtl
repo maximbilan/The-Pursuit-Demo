@@ -1,0 +1,11 @@
+// Source file: street lamp.max
+CIwMaterial
+{
+	name "lamp02/metal"
+	texture0 "./textures/st-metal.tga"
+}
+CIwMaterial
+{
+	name "lamp02/lamptexture"
+	texture0 "./textures/street_light_texture.tga"
+}

@@ -1,0 +1,17 @@
+// Source file: 2003-eclipse_work_export_to_game.max
+CIwMaterial
+{
+	name "body/2003Eclipse"
+	colAmbient {150,150,150}
+	colDiffuse {150,150,150}
+}
+CIwMaterial
+{
+	name "body/Material_5"
+	texture0 "./textures/wheel-diffuse-256.tga"
+}
+CIwMaterial
+{
+	name "body/Material_4"
+	texture0 "./textures/eclipse2003-diffuse-red-512.tga"
+}

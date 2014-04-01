@@ -1,0 +1,13 @@
+includepath source
+
+files
+{
+	(source)
+	transitions2d.h
+	transitions2d.cpp
+}
+
+subproject
+{
+	iwgx
+}

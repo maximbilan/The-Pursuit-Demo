@@ -1,0 +1,8 @@
+// Source file: terrain_training_export_to_game.max
+// Exported By: <Unknown> on 02/20/13 13:50:30
+
+CIwResGroup
+{
+	name "terrain_training"
+	"./models/terrain_ground.geo" { userString "collision" }
+}

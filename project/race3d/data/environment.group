@@ -1,0 +1,55 @@
+// Source file: barrels.max
+// Exported By: <Unknown> on 01/22/13 21:34:28
+
+CIwResGroup
+{
+	name "environment"
+	"./models/barell01.geo" { userString "collision" }
+	"./models/barell02.geo" { userString "collision" }
+	"./models/barell03.geo" { userString "collision" }
+	"./models/barell04.geo" { userString "collision" }
+	"./models/barell05.geo" { userString "collision" }
+	"./models/barell06.geo" { userString "collision" }
+	"./models/lamp01.geo"	{ userString "collision" }
+	"./models/lamp02.geo"	{ userString "collision" }
+	"./models/guardrail_small.geo" { userString "collision" }
+	"./models/guardrail_large_90deg_in.geo" { userString "collision" }
+	"./models/guardrail_large_45deg_in.geo" { userString "collision" }
+	"./models/guardrail_large_30deg_in.geo" { userString "collision" }
+	"./models/guardrail_large_15deg_in.geo" { userString "collision" }
+	"./models/guardrail_large_135deg_in.geo" { userString "collision" }
+	"./models/guardrail_large.geo" { userString "collision" }
+	"./models/guardrail_large_15deg_out.geo" { userString "collision" }
+	"./models/guardrail_large_30deg_out.geo" { userString "collision" }
+	"./models/guardrail_large_45deg_out.geo" { userString "collision" }
+	"./models/guardrail_large_90deg_out.geo" { userString "collision" }
+	"./models/guardrail_large_135deg_out.geo" { userString "collision" }
+	"./models/guardrail_small_15deg_in.geo" { userString "collision" }
+	"./models/guardrail_small_30deg_in.geo" { userString "collision" }
+	"./models/guardrail_small_45deg_in.geo" { userString "collision" }
+	"./models/guardrail_small_90deg_in.geo" { userString "collision" }
+	"./models/guardrail_small_135deg_in.geo" { userString "collision" }
+	"./models/guardrail_small_15deg_out.geo" { userString "collision" }
+	"./models/guardrail_small_30deg_out.geo" { userString "collision" }
+	"./models/guardrail_small_45deg_out.geo" { userString "collision" }
+	"./models/guardrail_small_90deg_out.geo" { userString "collision" }
+	"./models/guardrail_small_135deg_out.geo" { userString "collision" }
+	"./models/guardrail_u_180deg_out.geo" { userString "collision" }
+	"./models/guardrail_u_180deg_in.geo" { userString "collision" }
+	"./models/guardrail_u_90deg_out.geo" { userString "collision" }
+	"./models/guardrail_u_90deg_in.geo" { userString "collision" }
+	"./models/guardrail_end_right_b.geo" { userString "collision" }
+	"./models/guardrail_end_right_c.geo" { userString "collision" }
+	"./models/guardrail_endsign_right_a.geo" { userString "collision" }
+	"./models/guardrail_endsign_right_b.geo" { userString "collision" }
+	"./models/guardrail_end_right_a.geo" { userString "collision" }
+	"./models/guardrail_end_left_a.geo" { userString "collision" }
+	"./models/guardrail_endsign_left_a.geo" { userString "collision" }
+	"./models/guardrail_end_left_b.geo" { userString "collision" }
+	"./models/guardrail_end_left_c.geo" { userString "collision" }
+	"./models/guardrail_endsign_left_b.geo" { userString "collision" }
+	"./models/guardrail_small_nocol.geo" { userString "collision" }
+	"./models/guardrail_large_nocol.geo" { userString "collision" }
+	"./models/column.geo" { userString "collision" }
+	"./models/bolt.geo" { userString "collision" }
+}

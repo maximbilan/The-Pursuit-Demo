@@ -1,0 +1,26 @@
+// Colour definitions used throughout entire UI
+
+GUIColour
+{
+	name	"white"
+	rgba	{ 255 255 255 255 }
+}
+
+GUIColour
+{
+	name	"button_up"
+	rgba	{ 255 255 255 255 }
+}
+
+GUIColour
+{
+	name	"button_down"
+	rgba	{ 128 128 128 255 }
+}
+
+GUIColour
+{
+	name	"button_disabled"
+	rgba	{ 255 255 255 128 }
+}
+

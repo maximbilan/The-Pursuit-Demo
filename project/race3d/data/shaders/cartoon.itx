@@ -1,0 +1,98 @@
+CIwGxShaderTechnique
+{
+	name "cartoon"
+	
+	param "diffuseLightPosition" vec3 1 { 0, 0, 0 }
+
+	shader "vertex"
+	{
+		uniform mediump vec3	diffuseLightPosition;
+
+		// the shader has access to the standard IwGx streams
+		// the input here will be fixed point by default, and the matrices passes in by the framework 
+		// will include the fixed point multipier down to float.
+		attribute highp vec4	inVert;		// vertex stream
+		attribute mediump vec2	inUV0;		// UV 0 stream
+		attribute mediump vec4	inNorm;		// normal stream
+		attribute lowp vec4		inCol;		// colour stream
+
+		// IwGx exposes a number of useful matrices to shaders.
+		uniform highp mat4		inPMVMat;	// transform to projected space
+		uniform highp mat4		inMVMat;	// transform to view space
+		uniform mediump mat3	inMVRotMat;	// rotation to view space
+
+		uniform mediump vec3	inModelPos;
+		uniform mediump vec3	inDiffuseDir;
+		
+		// IwGx exposes various other standard parameters to allow shaders to interact correctly with
+		//all IwGx features. 
+		uniform mediump vec2	inUVOffset;	// offset for UVs (allow support for IwGx texture animation)
+		uniform mediump vec2	inUVScale;	// scale for UVs (allow support for IwGx np2 textures)
+
+		// output of the vertex shader
+		varying mediump vec3	outToVert;	// direction to vertex from eye
+		varying mediump vec2	outUV0;		// final UV0 
+		varying mediump vec3	outNorm;	// view space normal 
+		varying mediump vec4	outCol;		// final colour
+
+		varying mediump vec3	l;
+		varying mediump float	intensity;
+
+		void main()
+		{
+			mediump vec3 normal;
+
+			intensity = dot( diffuseLightPosition, normalize( inNorm.xyz ) );
+
+			// uv0 scaled and offset
+			outUV0 = inUV0 * inUVScale + inUVOffset;
+
+			// normal in view space
+			outNorm = normalize( inMVRotMat * inNorm.xyz );
+
+			l = normalize( diffuseLightPosition - inModelPos );
+
+			// set vertex position in projected space
+			gl_Position = inPMVMat * inVert;
+		}
+	}
+
+	shader "fragment"
+	{
+		// input to the fragment shader (matches vertex shader output above)
+		varying mediump vec3	outToVert;
+		varying mediump vec2	outUV0;
+		varying lowp vec4		outCol;
+		varying mediump vec3	outNorm;
+
+		// IwGx texture stages are accessible using inSamplerx
+		uniform sampler2D		inSampler0;
+		uniform sampler2D		inSampler1;
+
+		// more standard IwGx shader uniforms
+		uniform mediump mat3	inDisplayRotScaleMat;	// transform from gl_FragCoord space to 'display' space
+		uniform mediump vec2	inUV1Scale;				// the scale of texture stage 1 - allow np2 texture in this stage
+
+		varying lowp vec3		l;
+		varying mediump float	intensity;
+
+		void main()
+		{
+			mediump vec4 diffColor = texture2D ( inSampler0, outUV0 );
+
+			mediump vec3 n2 = normalize( outNorm );
+			mediump vec3 l2 = normalize( l );
+			mediump float diff = 0.2 + max( dot( n2, l2 ), 0.0 );
+			mediump vec4 clr;
+
+			if( diff < 0.4 )
+				clr = diffColor * 0.3;
+			else if ( diff < 0.7 )
+				clr = diffColor;
+			else
+				clr = diffColor * 1.3;
+
+			gl_FragColor = clr;
+		}
+	}
+}

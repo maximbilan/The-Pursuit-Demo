@@ -1,0 +1,47 @@
+// The UI elements required for the yes/no dialog
+
+GUIFrame
+{
+	name		popup_yes_no
+	bounds		{ centre centre 50% 50% 47% 20% aspect-height 1000 400 }
+
+	addTemplate	menu_backing
+
+	GUILabel
+	{
+		useTemplate		text_label
+
+		name			popup_question
+		bounds			{ centre centre 50% 30% 90% 50% }
+		align			{ centre centre }
+		text			"Question Text"
+	}
+
+	GUIButton
+	{
+		name			popup_yes
+		bounds			{ centre centre 22.5% 70% 40% 30% }
+
+		addTemplate		button_green
+
+		GUILabel
+		{
+			useTemplate	button_label
+			string		YES
+		}
+	}
+
+	GUIButton
+	{
+		name			popup_no
+		bounds			{ centre centre -22.5% 70% 40% 30% }
+
+		addTemplate		button_green
+
+		GUILabel
+		{
+			useTemplate	button_label
+			string		NO
+		}
+	}
+}

@@ -1,0 +1,272 @@
+//-----------------------------------------------------------------------------
+// RGBA8888 Frontend textures
+//-----------------------------------------------------------------------------
+
+//-----------------------------------------------------------------------------
+// Buttons, borders etc.
+//-----------------------------------------------------------------------------
+CIwMaterial
+{
+	name		popup
+	texture0	popup.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		menu_backing
+	texture0	menu_backing.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_green
+	texture0	button.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_green_info
+	texture0	info_button.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_green_exit
+	texture0	exit_button.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_green_back
+	texture0	back_button.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_arrow_left
+	texture0	arrow_left.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_arrow_right
+	texture0	arrow_right.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		background
+	texture0	background.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		red_eclipse_car
+	texture0	red_eclipse_car.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		gray_eclipse_car
+	texture0	gray_eclipse_car.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		blue_eclipse_car
+	texture0	blue_eclipse_car.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		purple_eclipse_car
+	texture0	purple_eclipse_car.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_bg_alpha
+	texture0	alpha_backing.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_controls_alpha
+	texture0	controls_page.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		title
+	texture0	title.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_flag_en
+	texture0	flag_en.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_flag_ru
+	texture0	flag_ru.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_flag_fr
+	texture0	flag_fr.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_flag_ge
+	texture0	flag_ge.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_flag_it
+	texture0	flag_it.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_flag_sp
+	texture0	flag_sp.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		checkbox_blue
+	texture0	checkbox_blue.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		checkbox_red
+	texture0	checkbox_red.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		label_green_backing
+	texture0	label_backing.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_facebook
+	texture0	facebook_button.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_twitter
+	texture0	twitter_button.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_play_left
+	texture0	button_left.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_play_right
+	texture0	button_right.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_play_up
+	texture0	button_up.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_play_down
+	texture0	button_down.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_play_pause
+	texture0	button_pause.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		button_play_respawn
+	texture0	button_respawn.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		mat_menu_controls_element_01
+	texture0	controls_element_01.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		mat_menu_controls_element_02
+	texture0	controls_element_02.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		mat_game_title
+	texture0	game_title.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		mat_menu_car_red_render
+	texture0	menu_car_red_render.png
+	alphaMode	BLEND
+}
+
+CIwMaterial
+{
+	name		mat_menu_stats_page_bg
+	texture0	stats_page.png
+	alphaMode	BLEND
+}

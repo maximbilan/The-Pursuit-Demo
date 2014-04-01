@@ -1,0 +1,18 @@
+// Source file: 2003-eclipse_work_export_to_game_low_textures.max
+CIwMaterial
+{
+	name "car_eclipse_blue_body/2003Eclipse"
+	colAmbient {150,150,150}
+	colDiffuse {150,150,150}
+}
+CIwMaterial
+{
+	name "car_eclipse_blue_body/Material_5"
+	texture0 "./textures/wheel-diffuse-64.tga"
+}
+CIwMaterial
+{
+	name "car_eclipse_blue_body/Material_4"
+	texture0 "./textures/eclipse2003-diffuse-blue-128.tga"
+	shaderTechnique "cartoon"
+}

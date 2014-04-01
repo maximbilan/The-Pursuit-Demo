@@ -1,0 +1,22 @@
+// Source file: terrain_training_export_to_game.max
+CIwMaterial
+{
+	name "terrain_ground/02_Default"
+	texture0 "./textures/asphaltFree_low.tga"
+}
+CIwMaterial
+{
+	name "terrain_ground/09_Default"
+	texture0 "./textures/bark-256x256.tga"
+	texture1 "./textures/OpenfootageNETBoden06_low.tga"
+}
+CIwMaterial
+{
+	name "terrain_ground/01_Default"
+	texture0 "./textures/Dirt02_low.tga"
+}
+CIwMaterial
+{
+	name "terrain_ground/07_Default"
+	texture0 "./textures/grass_tex.tga"
+}
