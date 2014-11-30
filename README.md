@@ -7,7 +7,7 @@ Released the demo version for BlackBerry, Android and iOS. <br>
 BlackBerry World: http://appworld.blackberry.com/webstore/content/24117936/ <br>
 Play store: https://play.google.com/store/apps/details?id=com.maxim.thepursuitdemo <br>
 Apple iTunes: https://itunes.apple.com/us/app/the-pursuit-demo/id689719793 <br>
-Amazon App Store: http://www.amazon.com/gp/product/B00NMQ980C
+Amazon App Store: http://www.amazon.com/gp/product/B00NMQ980C <br>
 <br>
 <b>Prerequisites:</b> <br>
 <b>&nbsp;&nbsp;For windows:</b> <br>
