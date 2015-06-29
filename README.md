@@ -24,11 +24,9 @@ Amazon App Store: http://www.amazon.com/gp/product/B00NMQ980C <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Extract this archive and run the command “python setup.py install” <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Run the script makedata.bat from folder “scripts”. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Open race3d.mkb from “project/race3d” or run the script run_project.bat from “scripts”.
-<br>
 ## Important notes:
 &nbsp;&nbsp;1. Install Java SDK 6, not 7 for Android build. <br>
 &nbsp;&nbsp;2. For windows phone 8 build you need to install Windows 8 x64 and run 'run_project_win8.bat'. <br>
-<br>
 ## Screenshots:
 ![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen2.png)
 ![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen3.png)
