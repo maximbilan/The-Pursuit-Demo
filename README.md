@@ -2,7 +2,9 @@ The Pursuit Demo
 ================================
 
 3D racing with physics powered by Marmalade SDK and Bullet Physics. <br>
-Released the demo version for BlackBerry, Android and iOS. <br>
+Released the demo version for BlackBerry, Android and iOS.
+<br>
+![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen1.png)
 <br>
 BlackBerry World: http://appworld.blackberry.com/webstore/content/24117936/ <br>
 Play store: https://play.google.com/store/apps/details?id=com.maxim.thepursuitdemo <br>
@@ -29,7 +31,6 @@ Amazon App Store: http://www.amazon.com/gp/product/B00NMQ980C <br>
 &nbsp;&nbsp;2. For windows phone 8 build you need to install Windows 8 x64 and run 'run_project_win8.bat'. <br>
 <br>
 Screenshots:<br>
-![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen1.png)
 ![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen2.png)
 ![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen3.png)
 ![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen4.png)
