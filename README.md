@@ -18,7 +18,7 @@ Amazon App Store: http://www.amazon.com/gp/product/B00NMQ980C <br>
 <b>&nbsp;&nbsp;For iOS:</b> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Xcode 4.6.3 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Marmalade SDK <br>
-<b>How to build:</b> <br>
+## How to build:
 &nbsp;&nbsp;Make data: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Download and install python 2.7 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Download extension xlrd 0.8.0 from http://pypi.python.org/pypi/xlrd/. <br>
@@ -26,7 +26,7 @@ Amazon App Store: http://www.amazon.com/gp/product/B00NMQ980C <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Run the script makedata.bat from folder “scripts”. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Open race3d.mkb from “project/race3d” or run the script run_project.bat from “scripts”. <br>
 <br>
-<b>Important notes: </b> <br>
+## Important notes:
 &nbsp;&nbsp;1. Install Java SDK 6, not 7 for Android build. <br>
 &nbsp;&nbsp;2. For windows phone 8 build you need to install Windows 8 x64 and run 'run_project_win8.bat'. <br>
 <br>
