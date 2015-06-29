@@ -2,7 +2,7 @@ The Pursuit Demo
 ================================
 
 3D racing with physics powered by Marmalade SDK and Bullet Physics.<br>
-Released the demo version for BlackBerry, Android and iOS.
+Released the demo version for BlackBerry, Android and iOS platforms.
 <br><br>
 ![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen1.png)
 <br><br>
