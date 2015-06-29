@@ -13,12 +13,11 @@ Amazon App Store: http://www.amazon.com/gp/product/B00NMQ980C <br>
 ## Prerequisites:
 <b>&nbsp;&nbsp;For Windows:</b> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Microsoft Visual Studio 2010 (or 2012) Express Edition. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;- Marmalade SDK<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Marmalade SDK<br><br>
 <b>&nbsp;&nbsp;For iOS:</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Xcode 4.6.3<br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Marmalade SDK
 ## How to build:
-&nbsp;&nbsp;Make data: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Download and install python 2.7 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Download extension xlrd 0.8.0 from http://pypi.python.org/pypi/xlrd/. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Extract this archive and run the command “python setup.py install” <br>
