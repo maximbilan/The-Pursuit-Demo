@@ -7,7 +7,7 @@ Released the demo version for BlackBerry, Android and iOS platforms.
 ![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen1.png)
 <br><br>
 BlackBerry World: http://appworld.blackberry.com/webstore/content/24117936/ <br>
-Play store: https://play.google.com/store/apps/details?id=com.maxim.thepursuitdemo <br>
+Play Store: https://play.google.com/store/apps/details?id=com.maxim.thepursuitdemo <br>
 Apple iTunes: https://itunes.apple.com/us/app/the-pursuit-demo/id689719793 <br>
 Amazon App Store: http://www.amazon.com/gp/product/B00NMQ980C <br>
 ## Prerequisites:
