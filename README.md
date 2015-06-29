@@ -10,14 +10,13 @@ BlackBerry World: http://appworld.blackberry.com/webstore/content/24117936/ <br>
 Play store: https://play.google.com/store/apps/details?id=com.maxim.thepursuitdemo <br>
 Apple iTunes: https://itunes.apple.com/us/app/the-pursuit-demo/id689719793 <br>
 Amazon App Store: http://www.amazon.com/gp/product/B00NMQ980C <br>
-<br>
 ## Prerequisites:
-<b>&nbsp;&nbsp;For windows:</b> <br>
+<b>&nbsp;&nbsp;For Windows:</b> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Microsoft Visual Studio 2010 (or 2012) Express Edition. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;- Marmalade SDK <br>
-<b>&nbsp;&nbsp;For iOS:</b> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;- Xcode 4.6.3 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;- Marmalade SDK <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Marmalade SDK<br>
+<b>&nbsp;&nbsp;For iOS:</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Xcode 4.6.3<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Marmalade SDK
 ## How to build:
 &nbsp;&nbsp;Make data: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Download and install python 2.7 <br>
