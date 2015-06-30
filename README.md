@@ -18,14 +18,14 @@ Amazon App Store: http://www.amazon.com/gp/product/B00NMQ980C <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Xcode 4.6.3<br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Marmalade SDK
 ## How to build:
-&nbsp;&nbsp;&nbsp;&nbsp;- Download and install python 2.7 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;- Download extension xlrd 0.8.0 from http://pypi.python.org/pypi/xlrd/. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;- Extract this archive and run the command “python setup.py install” <br>
-&nbsp;&nbsp;&nbsp;&nbsp;- Run the script makedata.bat from folder “scripts”. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;- Open race3d.mkb from “project/race3d” or run the script run_project.bat from “scripts”.
+&nbsp;&nbsp;&nbsp;&nbsp;- Download and install <b>Python 2.7></b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Download extension <b>xlrd 0.8.0</b> from http://pypi.python.org/pypi/xlrd/. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Extract this archive and run the command '<i>python setup.py install</i>' <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Run the script <b>makedata.bat</b> from folder '<i>scripts</i>'. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Open <b>race3d.mkb</b> from '<i>project/race3d</i>' or run the script <b>run_project.bat</b> from '<i>scripts</i>'.
 ## Important notes:
-&nbsp;&nbsp;1. Install Java SDK 6, not 7 for Android build. <br>
-&nbsp;&nbsp;2. For windows phone 8 build you need to install Windows 8 x64 and run 'run_project_win8.bat'. <br>
+&nbsp;&nbsp;1. Install <i>Java SDK 6</i>, not 7 for <i>Android</i> build. <br>
+&nbsp;&nbsp;2. For <i>Windows Phone 8</i> build you need to install <i>Windows 8 x64</i> and run '<i>run_project_win8.bat<i>'. <br>
 ## Screenshots:
 ![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen2.png)
 ![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen3.png)
