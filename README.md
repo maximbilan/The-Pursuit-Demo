@@ -19,10 +19,10 @@ Released the demo version for <i>BlackBerry</i>, <i>Android</i> and <i>iOS</i> p
 &nbsp;&nbsp;&nbsp;&nbsp;- Marmalade SDK
 ## How to build:
 &nbsp;&nbsp;&nbsp;&nbsp;- Download and install <i>Python 2.7</i> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;- Download extension <i>xlrd 0.8.0</i> from http://pypi.python.org/pypi/xlrd/. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Download extension <i>xlrd 0.8.0</i> from http://pypi.python.org/pypi/xlrd/ <br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Extract this archive and run the command '<i>python setup.py install</i>' <br>
-&nbsp;&nbsp;&nbsp;&nbsp;- Run the script <i>makedata.bat</i> from folder '<i>scripts</i>'. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;- Open <i>race3d.mkb</i> from '<i>project/race3d</i>' or run the script <i>run_project.bat</i> from '<i>scripts</i>'.
+&nbsp;&nbsp;&nbsp;&nbsp;- Run the script <i>makedata.bat</i> from folder '<i>scripts</i>' <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Open <i>race3d.mkb</i> from '<i>project/race3d</i>' or run the script <i>run_project.bat</i> from '<i>scripts</i>'
 ## Important notes:
 &nbsp;&nbsp;1. Install <i>Java SDK 6</i>, not 7 for <i>Android</i> build. <br>
 &nbsp;&nbsp;2. For <i>Windows Phone 8</i> build you need to install <i>Windows 8 x64</i> and run '<i>run_project_win8.bat<i>'. <br>
