@@ -13,7 +13,7 @@ Released the demo version for mobile platforms: <i>BlackBerry</i>, <i>Android</i
 <b>Apple iTunes:</b> https://itunes.apple.com/us/app/the-pursuit-demo/id689719793 <br>
 <b>Amazon App Store:</b> http://www.amazon.com/gp/product/B00NMQ980C <br>
 
-I think you will have no difficulties, if you want to build this sources, but for this you need the <a href="https://www.madewithmarmalade.com">Marmalade SDK</a> license, and еhen everything is simple if you follow the instructions.
+I think you will have no difficulties, if you want to build this sources, but for this you need the <a href="https://www.madewithmarmalade.com">Marmalade SDK</a> license, and then everything is simple if you follow the instructions.
 
 ## Prerequisites:
 <b>&nbsp;&nbsp;For Windows:</b> <br>
