@@ -30,7 +30,7 @@ I think you will have no difficulties, if you want to build this sources, but fo
 &nbsp;&nbsp;&nbsp;&nbsp;- Open <i>race3d.mkb</i> from '<i>project/race3d</i>' or run the script <i>run_project.bat</i> from '<i>scripts</i>'
 ## Important notes:
 &nbsp;&nbsp;1. Install <i>Java SDK 6</i>, not 7 for <i>Android</i> build <br>
-&nbsp;&nbsp;2. For <i>Windows Phone 8</i> build you need to install <i>Windows 8 x64</i> and run '<i>run_project_win8.bat<i>' <br>
+&nbsp;&nbsp;2. For <i>Windows Phone 8</i> build you need to install <i>Windows 8 x64</i> and run '<i>run_project_win8.bat</i>' <br>
 ## Screenshots:
 ![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen2.png)
 ![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen3.png)
