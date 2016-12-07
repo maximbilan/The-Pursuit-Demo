@@ -1,7 +1,7 @@
 The Pursuit Demo
 ================================
 
-The other my old stuff. 3D racing with physics powered by <a href="https://www.madewithmarmalade.com">Marmalade SDK</a> and <a href="http://bulletphysics.org">Bullet Physics</a>.
+The other my old stuff. 3D racing with physics powered by <a href="https://www.madewithmarmalade.com">Marmalade SDK</a> and <a href="http://bulletphysics.org">Bullet Physics</a>.<br>
 Released the demo version for mobile platforms: <i>BlackBerry</i>, <i>Android</i> and <i>iOS</i>.
 
 ![alt tag](https://raw.github.com/maximbilan/cpp_marmalade_sdk_the_pursuit_3d/master/data/img/screen1.png)
